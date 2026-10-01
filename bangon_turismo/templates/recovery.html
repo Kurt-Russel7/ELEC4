@@ -21,19 +21,42 @@
   </div>
 </div>
 
-<div class="two-col">
-  <section class="card panel">
-    <div class="panel-head"><h2>Recovery rate, {{ year }} vs 2019</h2></div>
-    <div id="chart-bars" class="chart tall"></div>
-    <p class="sub-note">Dashed lines mark the 80% (partially recovered) and 100% (fully recovered) thresholds.</p>
-  </section>
+<section class="card panel">
+  <div class="panel-head">
+    <h2>Recovery rate, {{ year }} vs 2019</h2>
+    <div class="year-pick" role="group" aria-label="Year to compare with 2019">
+      <span class="year-pick-label">Compare with 2019:</span>
+      <div class="seg">
+        {% for y in post_years %}
+        <a href="{{ url_for('recovery', category=f.category, model=f.model, to=f.to, ry=y, **{'from': f.from}) }}"
+           class="{{ 'active' if y == year }}" {{ 'aria-current=true' if y == year }}>{{ y }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div id="chart-bars" class="chart tall"></div>
+  <p class="sub-note">The year also updates the counts above and the table below. Dashed lines mark the 80% (partially recovered) and 100% (fully recovered) thresholds.</p>
+</section>
 
-  <section class="card panel">
-    <div class="panel-head"><h2>Recovery speed, {{ f.from }}&ndash;{{ f.to }}</h2></div>
-    <div id="chart-index" class="chart tall"></div>
-    <p class="sub-note">Each line is indexed so that 2019 = 100.{% if f.category != 'All' %} {{ f.category }} is highlighted.{% endif %}</p>
-  </section>
-</div>
+<section class="card panel">
+  <div class="panel-head">
+    <h2>Recovery speed, {{ f.from }}&ndash;{{ f.to }}</h2>
+    <span class="hint">Tick the categories you want to compare.</span>
+  </div>
+  <div class="cat-picks" id="cat-picks" role="group" aria-label="Categories to show">
+    <div class="cat-actions">
+      <button type="button" class="link-btn" data-all="1">Select all</button>
+      <button type="button" class="link-btn" data-all="0">Clear</button>
+    </div>
+    <div class="cat-list">
+      {% for c in categories %}
+      <label class="cat-check"><input type="checkbox" value="{{ c }}" checked><span class="cat-swatch"></span>{{ c }}</label>
+      {% endfor %}
+    </div>
+  </div>
+  <div id="chart-index" class="chart xtall"></div>
+  <p class="sub-note">Each line is indexed so that 2019 = 100.{% if f.category != 'All' %} {{ f.category }} is highlighted.{% endif %}</p>
+</section>
 
 <div class="section-title"><h2>Recovery detail</h2></div>
 <div class="card table-card">
@@ -61,6 +84,30 @@
 <script>
   const C = {{ charts|tojson }};
   BT.recoveryBars('chart-bars', C.bars.x, C.bars.y, C.bars.status);
-  BT.indexLines('chart-index', C.index.x, C.index.lines);
+  BT.indexLines('chart-index', C.index.x, C.index.lines, { noLegend: true });
+
+  // category checkboxes show or hide the matching line
+  (function () {
+    const el = document.getElementById('chart-index');
+    const box = document.getElementById('cat-picks');
+    const inputs = Array.prototype.slice.call(box.querySelectorAll('input[type=checkbox]'));
+    function color(name) {
+      const t = el.data.filter(function (tr) { return tr.name === name; })[0];
+      return t ? t.line.color : '#999';
+    }
+    inputs.forEach(function (i) { i.parentNode.querySelector('.cat-swatch').style.background = color(i.value); });
+    function apply() {
+      const on = {};
+      inputs.forEach(function (i) { on[i.value] = i.checked; });
+      Plotly.restyle(el, { visible: el.data.map(function (tr) { return on[tr.name] ? true : false; }) });
+      // end-of-line labels belong to the highlighted line only; hide them when it is unticked
+      const ann = (el.layout.annotations || []).map(function (a) { return Object.assign({}, a, { visible: on[a.text] !== false }); });
+      Plotly.relayout(el, { annotations: ann });
+    }
+    inputs.forEach(function (i) { i.addEventListener('change', apply); });
+    box.querySelectorAll('[data-all]').forEach(function (b) {
+      b.addEventListener('click', function () { inputs.forEach(function (i) { i.checked = b.dataset.all === '1'; }); apply(); });
+    });
+  })();
 </script>
 {% endblock %}

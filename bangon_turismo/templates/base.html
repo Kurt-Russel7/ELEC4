@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}Bangon Turismo{% endblock %} | Bangon Turismo Monitor</title>
+  <title>{% block title %}Bangon Turismo{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
@@ -15,7 +18,7 @@
       <path d="M3 20 L9 9 L13 15 L16 11 L21 20 Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
       <circle cx="17" cy="5.5" r="2" fill="currentColor"/>
     </svg>
-    <span>Bangon Turismo Monitor</span>
+    <span>Bangon Turismo</span>
   </div>
   {% set qs = '?category=' ~ f.category|urlencode ~ '&model=' ~ f.model|urlencode ~ '&from=' ~ f.from ~ '&to=' ~ f.to %}
   <nav class="tabs">
@@ -32,53 +35,85 @@
     <h1>{% block heading %}{% endblock %}</h1>
     <p class="period">Reporting period: {{ f.from }}&ndash;{{ f.to }}{% if f.category != 'All' %} &middot; {{ f.category }}{% endif %}</p>
   </div>
-  <div class="legend-status" aria-label="Recovery status legend">
-    <div class="ls-item"><span class="ls-label">Lagging</span><span class="dot critical"></span></div>
-    <div class="ls-item up"><span class="ls-label">Partially recovered</span><span class="dot warning"></span></div>
-    <div class="ls-item"><span class="ls-label">Fully recovered</span><span class="dot healthy"></span></div>
-  </div>
   <p class="baseline-note">Baseline year: 2019 (pre-pandemic)</p>
 </div>
 
+{% macro dd(name, label, icon, value, options) %}
+<div class="field">
+  <span class="field-label" id="lbl-{{ name }}">{{ label }}</span>
+  <div class="dd" data-dd>
+    <input type="hidden" name="{{ name }}" value="{{ value }}">
+    <button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="lbl-{{ name }}">
+      <span class="dd-icon"><svg viewBox="0 0 24 24" aria-hidden="true">{{ icon }}</svg></span>
+      <span class="dd-value">{% for v, t in options %}{% if v|string == value|string %}{{ t }}{% endif %}{% endfor %}</span>
+      <svg class="dd-chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <ul class="dd-menu" role="listbox" tabindex="-1">
+      {% for v, t in options %}
+      <li role="option" tabindex="-1" data-value="{{ v }}" class="{{ 'selected' if v|string == value|string }}" aria-selected="{{ 'true' if v|string == value|string else 'false' }}">{{ t }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endmacro %}
+
+{% set params = [('category', f.category), ('model', f.model), ('from', f.from), ('to', f.to)] %}
+{% set active = [] %}
+{% if f.category != 'All' %}{% set _ = active.append(('category', 'Category', f.category, 'c-cat')) %}{% endif %}
+{% if f.model != 'Best' %}{% set _ = active.append(('model', 'Model', f.model, 'c-model')) %}{% endif %}
+{% if f.from != years[0] %}{% set _ = active.append(('from', 'From', f.from, 'c-from')) %}{% endif %}
+{% if f.to != years[-1] %}{% set _ = active.append(('to', 'To', f.to, 'c-to')) %}{% endif %}
+
+{% set cat_opts = [('All', 'All Categories')] %}
+{% for c in categories %}{% set _ = cat_opts.append((c, c)) %}{% endfor %}
+{% set model_opts = [('Best', 'Best per category')] %}
+{% for m in models %}{% set _ = model_opts.append((m, m)) %}{% endfor %}
+{% set from_opts = [] %}
+{% for y in years[:-1] %}{% set _ = from_opts.append((y, y)) %}{% endfor %}
+{% set to_opts = [] %}
+{% for y in years[1:] %}{% set _ = to_opts.append((y, y)) %}{% endfor %}
+{% set ico_slider %}<path d="M4 7h9M17 7h3M4 17h3M11 17h9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="15" cy="7" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/>{% endset %}
+{% set ico_cat %}<path d="M12 4l3 5H9l3-5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><rect x="4" y="14" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="17" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/>{% endset %}
+{% set ico_trend %}<path d="M3 17l6-6 4 4 8-8M15 7h6v6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>{% endset %}
+{% set ico_cal %}<rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4 10h16M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>{% endset %}
+
 <div class="layout">
-  <aside class="card filters">
-    <h2>Filter</h2>
+  <section class="card filters">
     <form method="get" id="filter-form">
-      <label for="category">Category</label>
-      <select name="category" id="category">
-        <option value="All" {{ 'selected' if f.category == 'All' }}>(All)</option>
-        {% for c in categories %}
-        <option value="{{ c }}" {{ 'selected' if f.category == c }}>{{ c }}</option>
-        {% endfor %}
-      </select>
+      {% if ry %}<input type="hidden" name="ry" value="{{ ry }}">{% endif %}
+      <div class="filters-head">
+        <div class="filters-title">
+          <span class="title-icon"><svg viewBox="0 0 24 24" aria-hidden="true">{{ ico_slider }}</svg></span>
+          <h2>Filters</h2>
+          {% if active %}<span class="badge">{{ active|length }} Active</span>{% endif %}
+        </div>
+        <div class="filters-actions">
+          <a class="clear" href="{{ request.path }}">Clear All</a>
+          <button type="submit" class="btn">Apply Filters</button>
+        </div>
+      </div>
 
-      <label for="model">Forecast model</label>
-      <select name="model" id="model">
-        <option value="Best" {{ 'selected' if f.model == 'Best' }}>Best per category</option>
-        {% for m in models %}
-        <option value="{{ m }}" {{ 'selected' if f.model == m }}>{{ m }}</option>
-        {% endfor %}
-      </select>
+      <div class="filter-fields">
+        {{ dd('category', 'Category', ico_cat, f.category, cat_opts) }}
+        {{ dd('model', 'Forecast model', ico_trend, f.model, model_opts) }}
+        {{ dd('from', 'From year', ico_cal, f.from, from_opts) }}
+        {{ dd('to', 'To year', ico_cal, f.to, to_opts) }}
+      </div>
 
-      <label for="from">From year</label>
-      <select name="from" id="from">
-        {% for y in years[:-1] %}
-        <option value="{{ y }}" {{ 'selected' if f.from == y }}>{{ y }}</option>
-        {% endfor %}
-      </select>
-
-      <label for="to">To year</label>
-      <select name="to" id="to">
-        {% for y in years[1:] %}
-        <option value="{{ y }}" {{ 'selected' if f.to == y }}>{{ y }}</option>
-        {% endfor %}
-      </select>
-
-      <noscript><button type="submit" class="btn">Apply filters</button></noscript>
+      <div class="filter-foot">
+        <div class="chips">
+          {% for key, lab, val, cls in active %}
+          {% set keep = [] %}
+          {% for k2, pv in params %}{% if k2 != key %}{% set _ = keep.append(k2 ~ '=' ~ (pv|string|urlencode)) %}{% endif %}{% endfor %}
+          <span class="chip {{ cls }}">{{ lab }} : <strong>{{ val }}</strong>
+            <a class="chip-x" href="{{ request.path }}{{ '?' ~ keep|join('&') if keep }}" aria-label="Remove {{ lab }} filter">&times;</a>
+          </span>
+          {% endfor %}
+        </div>
+        <span class="filter-hint">Values in {{ unit }}</span>
+      </div>
     </form>
-    <a class="btn" href="{{ request.path }}">Reset filters</a>
-    <p class="filter-hint">Values in {{ unit }}</p>
-  </aside>
+  </section>
 
   <main class="content">
     {% block content %}{% endblock %}
@@ -88,9 +123,41 @@
 <footer class="footer">{{ source_note }}. Train: Jan 2000&ndash;Dec 2022 &middot; Test: Jan 2023&ndash;Dec 2025.</footer>
 
 <script>
-  document.querySelectorAll('#filter-form select').forEach(function (s) {
-    s.addEventListener('change', function () { document.getElementById('filter-form').submit(); });
-  });
+  (function () {
+    var dds = document.querySelectorAll('[data-dd]');
+    function close(d) { d.classList.remove('open'); d.querySelector('.dd-btn').setAttribute('aria-expanded', 'false'); }
+    function closeAll(except) { dds.forEach(function (d) { if (d !== except) close(d); }); }
+    dds.forEach(function (d) {
+      var btn = d.querySelector('.dd-btn'), menu = d.querySelector('.dd-menu'), input = d.querySelector('input');
+      var items = Array.prototype.slice.call(menu.querySelectorAll('li'));
+      function open() {
+        closeAll(d); d.classList.add('open'); btn.setAttribute('aria-expanded', 'true');
+        var sel = menu.querySelector('.selected') || items[0]; if (sel) sel.focus();
+      }
+      btn.addEventListener('click', function () { d.classList.contains('open') ? close(d) : open(); });
+      btn.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); open(); }
+      });
+      items.forEach(function (li, i) {
+        li.addEventListener('click', function () {
+          input.value = li.dataset.value;
+          d.querySelector('.dd-value').textContent = li.textContent;
+          items.forEach(function (o) { o.classList.remove('selected'); o.setAttribute('aria-selected', 'false'); });
+          li.classList.add('selected'); li.setAttribute('aria-selected', 'true');
+          close(d); btn.focus();
+        });
+        li.addEventListener('keydown', function (e) {
+          if (e.key === 'ArrowDown') { e.preventDefault(); (items[i + 1] || li).focus(); }
+          else if (e.key === 'ArrowUp') { e.preventDefault(); (items[i - 1] || li).focus(); }
+          else if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); li.click(); }
+          else if (e.key === 'Escape') { close(d); btn.focus(); }
+        });
+      });
+    });
+    document.addEventListener('click', function (e) {
+      dds.forEach(function (d) { if (!d.contains(e.target)) close(d); });
+    });
+  })();
 </script>
 <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
 {% block scripts %}{% endblock %}

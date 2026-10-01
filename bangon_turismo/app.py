@@ -16,6 +16,8 @@ CATEGORIES = sorted(R["wide"].columns)
 YEARS = sorted(int(y) for y in R["annual"]["Year"].unique())
 print("Ready.")
 
+POST_PANDEMIC_FROM = 2020     # first year offered in the "Compare with 2019" picker
+
 STATUS_CLASS = {"Fully Recovered": "healthy", "Partially Recovered": "warning", "Lagging": "critical"}
 
 
@@ -178,8 +180,17 @@ def recovery():
     f = get_filters()
     ctx = base_context(f, "recovery")
     year = max(f["to"], A.BASELINE_YEAR + 1)
+    post_years = [y for y in YEARS if y >= POST_PANDEMIC_FROM]
+    try:
+        ry = int(request.args.get("ry", ""))
+    except ValueError:
+        ry = None
+    if ry in post_years:                   # recovery year picked on the page
+        year = ry
     rec = A.recovery_table(R["annual"], year)
     ctx["year"] = year
+    ctx["post_years"] = post_years
+    ctx["ry"] = ry if ry in post_years else None
     ctx["rows"] = rec.to_dict("records")
     ctx["counts"] = {s: int((rec["Status"] == s).sum()) for s in STATUS_CLASS}
 

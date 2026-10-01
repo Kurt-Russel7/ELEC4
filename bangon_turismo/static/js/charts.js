@@ -11,8 +11,56 @@ const BT = (function () {
     status: { 'Fully Recovered': '#34b36b', 'Partially Recovered': '#a95ce0', 'Lagging': '#e0407e' },
     muted: '#c9c9d3',
   };
-  const FONT = { family: 'Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif', size: 11, color: COLORS.text };
+  const FONT = { family: 'Poppins, system-ui, Segoe UI, Arial, sans-serif', size: 11, color: COLORS.text };
   const CONFIG = { displayModeBar: false, responsive: true };
+  // Zoomable charts: drag to zoom, scroll wheel, 1Y/3Y/5Y/All buttons, range slider, double-click to reset
+  const ZOOM_CONFIG = {
+    displayModeBar: 'hover', displaylogo: false, responsive: true, scrollZoom: true,
+    modeBarButtonsToRemove: ['select2d', 'lasso2d', 'autoScale2d', 'toImage'],
+  };
+  function zoomable(layout) {
+    layout.dragmode = 'zoom';
+    layout.modebar = { bgcolor: 'rgba(0,0,0,0)', color: '#6b6b76', activecolor: '#4169e1' };
+    layout.margin = Object.assign({}, layout.margin, { t: 44, b: 24 });
+    layout.xaxis = Object.assign({}, layout.xaxis, {
+      rangeslider: { visible: true, thickness: 0.07, bgcolor: '#f4f4f8', bordercolor: COLORS.grid, borderwidth: 1 },
+      rangeselector: {
+        x: 0, y: 1.12, bgcolor: '#f4f4f8', activecolor: '#dfe6fb', font: { size: 11 },
+        buttons: [
+          { count: 1, label: '1Y', step: 'year', stepmode: 'backward' },
+          { count: 3, label: '3Y', step: 'year', stepmode: 'backward' },
+          { count: 5, label: '5Y', step: 'year', stepmode: 'backward' },
+          { step: 'all', label: 'All' },
+        ],
+      },
+    });
+    layout.yaxis = Object.assign({}, layout.yaxis, { fixedrange: true });
+    return layout;
+  }
+  // Zoom/pan only changes the time range; refit the y axis to whatever is visible so nothing is cut off
+  function fitYOnZoom(id) {
+    const el = document.getElementById(id);
+    el.on('plotly_relayout', function (ev) {
+      const keys = Object.keys(ev);
+      if (keys.some(function (k) { return k.indexOf('yaxis') === 0; })) return;
+      if (ev['xaxis.autorange']) { Plotly.relayout(el, { 'yaxis.autorange': true }); return; }
+      let lo = ev['xaxis.range[0]'], hi = ev['xaxis.range[1]'];
+      if (ev['xaxis.range']) { lo = ev['xaxis.range'][0]; hi = ev['xaxis.range'][1]; }
+      if (lo === undefined || hi === undefined) return;
+      const t0 = new Date(lo).getTime(), t1 = new Date(hi).getTime();
+      let mn = Infinity, mx = -Infinity;
+      el.data.forEach(function (tr) {
+        if (!tr.y || !tr.x) return;
+        tr.x.forEach(function (x, i) {
+          const t = new Date(x).getTime(), v = tr.y[i];
+          if (t >= t0 && t <= t1 && v !== null && v !== undefined) { mn = Math.min(mn, v); mx = Math.max(mx, v); }
+        });
+      });
+      if (!isFinite(mn)) return;
+      const pad = (mx - mn) * 0.15 || mx * 0.1;
+      Plotly.relayout(el, { 'yaxis.range': [Math.max(0, mn - pad), mx + pad] });
+    });
+  }
 
   function baseLayout(extra) {
     return Object.assign({
@@ -22,6 +70,7 @@ const BT = (function () {
       plot_bgcolor: 'rgba(0,0,0,0)',
       showlegend: false,
       hovermode: 'x unified',
+      hoverlabel: { bgcolor: '#ffffff', bordercolor: '#dcdce4', font: { family: FONT.family, size: 12, color: '#26262e' } },
       xaxis: { gridcolor: COLORS.grid, zeroline: false, linecolor: COLORS.grid },
       yaxis: { gridcolor: COLORS.grid, zeroline: false, separatethousands: true, tickformat: '~s' },
     }, extra || {});
@@ -127,7 +176,8 @@ const BT = (function () {
   }
 
   // One line per category, indexed to 2019 = 100, labelled at the end (borrowed from design 2)
-  function indexLines(id, x, lines) {
+  function indexLines(id, x, lines, opts) {
+    opts = opts || {};
     const traces = [], ann = [];
     const palette = ['#4a86e8', '#e0287c', '#2fa37a', '#a95ce0', '#e8913a', '#3f3f4a', '#16a3b8'];
     const showAll = lines.every(function (l) { return l.highlight; });
@@ -145,7 +195,7 @@ const BT = (function () {
     Plotly.newPlot(id, traces, baseLayout({
       margin: { l: 48, r: showAll ? 16 : 150, t: 10, b: 32 },
       hovermode: 'closest',
-      showlegend: showAll,
+      showlegend: showAll && !opts.noLegend,
       legend: { orientation: 'h', y: -0.15, font: { size: 10 } },
       xaxis: { gridcolor: COLORS.grid, zeroline: false, range: [x[0], x[x.length - 1]] },
       yaxis: { gridcolor: COLORS.grid, zeroline: false, tickformat: ',.0f' },
@@ -159,25 +209,40 @@ const BT = (function () {
   function forecastChart(id, d) {
     const lastX = d.hist_x[d.hist_x.length - 1], lastY = d.hist_y[d.hist_y.length - 1];
     const fx = [lastX].concat(d.fc_x), fy = [lastY].concat(d.fc_y);
-    Plotly.newPlot(id, [
+    // label only each forecast year's peak and low month, so labels don't pile up
+    const labels = { text: fy.map(function () { return ''; }), pos: fy.map(function () { return 'top center'; }) };
+    const byYear = {};
+    d.fc_x.forEach(function (x, i) { (byYear[String(x).slice(0, 4)] = byYear[String(x).slice(0, 4)] || []).push(i + 1); });
+    Object.keys(byYear).forEach(function (yr) {
+      const idx = byYear[yr];
+      const hi = idx.reduce(function (a, b) { return fy[b] > fy[a] ? b : a; });
+      const lo = idx.reduce(function (a, b) { return fy[b] < fy[a] ? b : a; });
+      labels.text[hi] = fmt(fy[hi]); labels.pos[hi] = 'top center';
+      labels.text[lo] = fmt(fy[lo]); labels.pos[lo] = 'bottom center';
+    });
+    const traces = [
       { x: d.fc_x.concat(d.fc_x.slice().reverse()), y: d.hi.concat(d.lo.slice().reverse()),
         fill: 'toself', fillcolor: COLORS.band, line: { width: 0 }, hoverinfo: 'skip', type: 'scatter' },
       { x: d.fc_x, y: d.hi, mode: 'lines', line: { width: 0 }, hovertemplate: 'Upper 95%: %{y:,.0f}<extra></extra>' },
       { x: d.fc_x, y: d.lo, mode: 'lines', line: { width: 0 }, hovertemplate: 'Lower 95%: %{y:,.0f}<extra></extra>' },
       { x: d.hist_x, y: d.hist_y, mode: 'lines', line: { color: COLORS.selected, width: 1.8 },
         hovertemplate: 'Actual: %{y:,.0f}<extra></extra>' },
-      { x: fx, y: fy, mode: 'lines', line: { color: COLORS.benchmark, width: 2 },
+      { x: fx, y: fy, mode: 'lines+markers+text', line: { color: COLORS.benchmark, width: 2 },
+        marker: { color: COLORS.benchmark, size: 5 },
+        text: labels.text, textposition: labels.pos,
+        textfont: { size: 10, color: COLORS.benchmark }, cliponaxis: false,
         hovertemplate: 'Forecast: %{y:,.0f}<extra></extra>' },
-    ], baseLayout({
+    ];
+    const layout = baseLayout({
       margin: { l: 56, r: 64, t: 10, b: 32 },
       shapes: [covidShape(false), { type: 'line', xref: 'x', yref: 'paper', x0: d.fc_x[0], x1: d.fc_x[0], y0: 0, y1: 1,
                                     line: { color: '#9a9aa6', width: 1 } }],
       annotations: [
-        endLabel(d.fc_x[d.fc_x.length - 1], d.fc_y[d.fc_y.length - 1], COLORS.benchmark, fmt(d.fc_y[d.fc_y.length - 1])),
         { x: d.fc_x[0], y: 0.98, xref: 'x', yref: 'paper', text: 'Forecast', showarrow: false, xanchor: 'left',
           xshift: 4, font: { size: 10, color: '#7a7a86' } },
       ],
-    }), CONFIG);
+    });
+    Plotly.newPlot(id, traces, zoomable(layout), ZOOM_CONFIG).then(function () { fitYOnZoom(id); });
   }
 
   // Actual vs each model's predictions on the 2023-2025 test period
@@ -192,7 +257,8 @@ const BT = (function () {
                     hovertemplate: m + ': %{y:,.0f}<extra></extra>' });
       ann.push(endLabel(d.x[d.x.length - 1], y[y.length - 1], modelColors[m], m));
     });
-    Plotly.newPlot(id, traces, baseLayout({ margin: { l: 56, r: 150, t: 10, b: 32 }, annotations: ann }), CONFIG);
+    Plotly.newPlot(id, traces, zoomable(baseLayout({ margin: { l: 56, r: 150, t: 10, b: 32 }, annotations: ann })), ZOOM_CONFIG)
+      .then(function () { fitYOnZoom(id); });
   }
 
   return { sparkline: sparkline, compareChart: compareChart, recoveryBars: recoveryBars,
