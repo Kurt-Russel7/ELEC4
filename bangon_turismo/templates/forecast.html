@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}Forecast{% endblock %}
+{% block heading %}Expenditure Forecast, 2026&ndash;2028{% endblock %}
+
+{% block content %}
+<section class="card panel">
+  <div class="panel-head">
+    <h2>{{ charts.forecast.name }}</h2>
+    <span class="hint">Model: {% if f.model == 'Best' %}best per category (lowest RMSE){% else %}{{ f.model }}{% endif %}</span>
+  </div>
+  <div id="chart-forecast" class="chart xtall"></div>
+  <ul class="chart-legend">
+    <li><span class="swatch sel"></span>Actual</li>
+    <li><span class="swatch bench"></span>Forecast</li>
+    <li><span class="swatch band"></span>95% prediction interval</li>
+  </ul>
+</section>
+
+<div class="two-col">
+  <section>
+    <div class="section-title"><h2>Annual forecast</h2></div>
+    <div class="card table-card">
+      <table class="data-table">
+        <thead><tr><th>Year</th><th class="num">Forecast</th><th class="num">Lower 95%</th><th class="num">Upper 95%</th></tr></thead>
+        <tbody>
+          {% for r in annual_rows %}
+          <tr><td>{{ r.year }}</td><td class="num"><strong>{{ r.Forecast|num }}</strong></td>
+              <td class="num">{{ r.Lower_95|num }}</td><td class="num">{{ r.Upper_95|num }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p class="sub-note">Annual bounds are the sum of monthly bounds, so treat them as approximate.</p>
+  </section>
+
+  <section>
+    <div class="section-title"><h2>How the three models compare</h2></div>
+    <div class="card table-card">
+      <table class="data-table">
+        <thead><tr><th>Model</th>{% for y in model_comp.years %}<th class="num">{{ y }}</th>{% endfor %}</tr></thead>
+        <tbody>
+          {% for r in model_comp.rows %}
+          <tr><td>{{ r.model }}</td>{% for v in r['values'] %}<td class="num">{{ v|num }}</td>{% endfor %}</tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% if used_models|length > 1 %}
+    <p class="sub-note">Models used for the total:
+      {% for u in used_models %}{{ u.category }} ({{ u.model }}){{ ', ' if not loop.last }}{% endfor %}.</p>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const C = {{ charts|tojson }};
+  BT.forecastChart('chart-forecast', C.forecast);
+</script>
+{% endblock %}

@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% block title %}Overview{% endblock %}
+{% block heading %}Inbound Tourism Recovery Performance{% endblock %}
+
+{% block content %}
+<div class="overview-grid">
+
+  <section class="left-col">
+    <div class="kpi-grid">
+
+      <!-- Total expenditure with sparkline (borrowed from design 2) -->
+      <div class="card kpi kpi-wide">
+        <div class="kpi-head"><h3>Total expenditure</h3><span class="kpi-sub">{{ f.to }}</span></div>
+        <div class="kpi-body">
+          <div>
+            <p class="kpi-value">{{ kpi.total|num }}</p>
+            <p class="kpi-note">
+              {% if kpi.total_change is not none %}
+              <strong class="{{ 'up' if kpi.total_change >= 0 else 'down' }}">{{ kpi.total_change|pct(1, true) }}</strong> from {{ f.to - 1 }}
+              {% endif %}
+            </p>
+          </div>
+          <div id="spark" class="spark"></div>
+        </div>
+      </div>
+
+      <div class="card kpi">
+        <div class="kpi-head"><h3>Recovery rate</h3>
+          {% if kpi.recovery_status %}<span class="dot {{ status_class[kpi.recovery_status] }}" title="{{ kpi.recovery_status }}"></span>{% endif %}
+        </div>
+        <p class="kpi-sub">vs 2019 baseline</p>
+        <p class="kpi-value">{{ kpi.recovery|pct }}</p>
+        <p class="kpi-note">{{ kpi.recovery_status or 'Pick an end year after 2019' }}</p>
+      </div>
+
+      <div class="card kpi">
+        <div class="kpi-head"><h3>YoY growth</h3></div>
+        <p class="kpi-sub">{{ f.to - 1 }} to {{ f.to }}</p>
+        <p class="kpi-value {{ 'up' if (kpi.yoy or 0) >= 0 else 'down' }}">{{ kpi.yoy|pct(1, true) }}</p>
+      </div>
+
+      <div class="card kpi">
+        <div class="kpi-head"><h3>Fully recovered</h3><span class="dot healthy"></span></div>
+        <p class="kpi-sub">categories, as of {{ recovery_year }}</p>
+        <p class="kpi-value">{{ kpi.fully }} <span class="kpi-unit">of {{ kpi.n_cat }}</span></p>
+      </div>
+
+      <div class="card kpi">
+        <div class="kpi-head"><h3>Slowest to recover</h3><span class="dot {{ status_class[kpi.slowest_status] }}"></span></div>
+        <p class="kpi-sub">as of {{ recovery_year }}</p>
+        <p class="kpi-value kpi-text">{{ kpi.slowest }}</p>
+        <p class="kpi-note">{{ kpi.slowest_rate|pct }} of 2019</p>
+      </div>
+
+      <div class="card kpi">
+        <div class="kpi-head"><h3>Forecast {{ kpi.next_year }}</h3></div>
+        <p class="kpi-sub">{{ kpi.model_label }}</p>
+        <p class="kpi-value">{{ kpi.forecast_next|num }}</p>
+      </div>
+
+      <div class="card kpi">
+        <div class="kpi-head"><h3>Forecast error</h3></div>
+        <p class="kpi-sub">MAPE on 2023&ndash;2025 test data</p>
+        <p class="kpi-value">{{ kpi.mape|pct }}</p>
+      </div>
+    </div>
+
+    <div class="section-title">
+      <h2>Recovery status by category</h2>
+      <span class="hint"><span class="mark">&#9654;</span> Below 2019 level</span>
+    </div>
+    <div class="card table-card">
+      <table class="data-table">
+        <thead>
+          <tr><th>No</th><th>Category</th><th class="num">2019</th><th class="num">{{ recovery_year }}</th><th class="num">Rate</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          {% for r in recovery_rows %}
+          <tr class="{{ 'is-selected' if f.category == r.Category }}">
+            <td>{{ loop.index }}</td>
+            <td>{{ r.Category }}</td>
+            <td class="num">{{ r.Baseline|num }}</td>
+            <td class="num">{{ r.Current|num }}</td>
+            <td class="num">{{ r.Recovery_Rate_pct|pct }}</td>
+            <td><span class="status {{ status_class[r.Status] }}">{% if r.Status != 'Fully Recovered' %}&#9654; {% endif %}{{ r.Status }}</span></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card panel right-col">
+    <div class="panel-head"><h2>Expenditure outlook</h2></div>
+
+    <div class="chart-pair">
+      <div>
+        <h3 class="chart-title">Monthly expenditure</h3>
+        <div id="chart-monthly" class="chart"></div>
+      </div>
+      <div>
+        <h3 class="chart-title">Recovery index (2019 = 100)</h3>
+        <div id="chart-index" class="chart"></div>
+      </div>
+    </div>
+    <ul class="chart-legend">
+      <li><span class="swatch sel"></span>Selected: <strong>{{ charts.monthly.selected_name }}</strong></li>
+      {% if charts.monthly.benchmark %}<li><span class="swatch bench"></span>Benchmark: average of all categories</li>{% endif %}
+      <li><span class="swatch covid"></span>COVID period (Mar 2020&ndash;Dec 2022)</li>
+    </ul>
+
+  </section>
+</div>
+
+<section class="card panel">
+  <div class="panel-head">
+    <h2>Year-over-year growth by category</h2>
+    <span class="hint">Green = growth, red = decline. Darker means a bigger change.</span>
+  </div>
+    <div class="heat-wrap">
+      <table class="heat">
+        <thead><tr><th></th>{% for y in heat.years %}<th>{{ y }}</th>{% endfor %}</tr></thead>
+        <tbody>
+          {% for row in heat.rows %}
+          <tr class="{{ 'is-selected' if f.category == row.category }}">
+            <th scope="row">{{ row.category }}</th>
+            {% for c in row.cells %}
+            <td style="background: {{ c.bg }}" title="{{ row.category }}, {{ heat.years[loop.index0] }}: {{ c.v|pct(1, true) }}">{{ c.v|pct(0, true) }}</td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const C = {{ charts|tojson }};
+  const K = {{ kpi|tojson }};
+  BT.sparkline('spark', K.spark_x, K.spark_y);
+  BT.compareChart('chart-monthly', C.monthly.x, C.monthly.selected, C.monthly.benchmark,
+                  { covid: true, testSplit: true });
+  BT.compareChart('chart-index', C.index.x, C.index.selected, C.index.benchmark,
+                  { covidYears: true, ref100: true, suffix: '' });
+</script>
+{% endblock %}

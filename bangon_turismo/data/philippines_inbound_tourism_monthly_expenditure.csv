@@ -1,0 +1,2185 @@
+Year,Month,Date,Tourism_Product_Category,Inbound_Expenditure_Millions_PHP
+2000,January,2000-01-01,Accommodation services for visitors,81192.11
+2000,February,2000-02-01,Accommodation services for visitors,83153.65
+2000,March,2000-03-01,Accommodation services for visitors,110863.08
+2000,April,2000-04-01,Accommodation services for visitors,118293.78
+2000,May,2000-05-01,Accommodation services for visitors,116674.61
+2000,June,2000-06-01,Accommodation services for visitors,96815.15
+2000,July,2000-07-01,Accommodation services for visitors,79338.76
+2000,August,2000-08-01,Accommodation services for visitors,80179.43
+2000,September,2000-09-01,Accommodation services for visitors,79859.18
+2000,October,2000-10-01,Accommodation services for visitors,113314.86
+2000,November,2000-11-01,Accommodation services for visitors,113401.21
+2000,December,2000-12-01,Accommodation services for visitors,157739.85
+2001,January,2001-01-01,Accommodation services for visitors,122885.58
+2001,February,2001-02-01,Accommodation services for visitors,118296.5
+2001,March,2001-03-01,Accommodation services for visitors,152905.71
+2001,April,2001-04-01,Accommodation services for visitors,162831.13
+2001,May,2001-05-01,Accommodation services for visitors,164834.56
+2001,June,2001-06-01,Accommodation services for visitors,140815.13
+2001,July,2001-07-01,Accommodation services for visitors,104328.43
+2001,August,2001-08-01,Accommodation services for visitors,105219.69
+2001,September,2001-09-01,Accommodation services for visitors,117446.56
+2001,October,2001-10-01,Accommodation services for visitors,152460.3
+2001,November,2001-11-01,Accommodation services for visitors,157318.06
+2001,December,2001-12-01,Accommodation services for visitors,207413.78
+2002,January,2002-01-01,Accommodation services for visitors,161321.64
+2002,February,2002-02-01,Accommodation services for visitors,168057.39
+2002,March,2002-03-01,Accommodation services for visitors,206369.25
+2002,April,2002-04-01,Accommodation services for visitors,220583.47
+2002,May,2002-05-01,Accommodation services for visitors,218490.74
+2002,June,2002-06-01,Accommodation services for visitors,179911.73
+2002,July,2002-07-01,Accommodation services for visitors,136245.4
+2002,August,2002-08-01,Accommodation services for visitors,149230.97
+2002,September,2002-09-01,Accommodation services for visitors,143941.69
+2002,October,2002-10-01,Accommodation services for visitors,189296.53
+2002,November,2002-11-01,Accommodation services for visitors,203910.59
+2002,December,2002-12-01,Accommodation services for visitors,263362.56
+2003,January,2003-01-01,Accommodation services for visitors,207290.78
+2003,February,2003-02-01,Accommodation services for visitors,197183.47
+2003,March,2003-03-01,Accommodation services for visitors,255641.11
+2003,April,2003-04-01,Accommodation services for visitors,272223.27
+2003,May,2003-05-01,Accommodation services for visitors,281092.35
+2003,June,2003-06-01,Accommodation services for visitors,224649.02
+2003,July,2003-07-01,Accommodation services for visitors,169659.33
+2003,August,2003-08-01,Accommodation services for visitors,171313.4
+2003,September,2003-09-01,Accommodation services for visitors,167715.58
+2003,October,2003-10-01,Accommodation services for visitors,232371.11
+2003,November,2003-11-01,Accommodation services for visitors,237669.58
+2003,December,2003-12-01,Accommodation services for visitors,340542.89
+2004,January,2004-01-01,Accommodation services for visitors,250556.52
+2004,February,2004-02-01,Accommodation services for visitors,238197.86
+2004,March,2004-03-01,Accommodation services for visitors,321849.05
+2004,April,2004-04-01,Accommodation services for visitors,319392.11
+2004,May,2004-05-01,Accommodation services for visitors,320849.24
+2004,June,2004-06-01,Accommodation services for visitors,270372.0
+2004,July,2004-07-01,Accommodation services for visitors,207990.12
+2004,August,2004-08-01,Accommodation services for visitors,210084.91
+2004,September,2004-09-01,Accommodation services for visitors,201788.46
+2004,October,2004-10-01,Accommodation services for visitors,276907.25
+2004,November,2004-11-01,Accommodation services for visitors,285812.43
+2004,December,2004-12-01,Accommodation services for visitors,398094.49
+2005,January,2005-01-01,Accommodation services for visitors,285831.18
+2005,February,2005-02-01,Accommodation services for visitors,291865.27
+2005,March,2005-03-01,Accommodation services for visitors,358928.19
+2005,April,2005-04-01,Accommodation services for visitors,362145.25
+2005,May,2005-05-01,Accommodation services for visitors,389262.79
+2005,June,2005-06-01,Accommodation services for visitors,320011.31
+2005,July,2005-07-01,Accommodation services for visitors,232746.11
+2005,August,2005-08-01,Accommodation services for visitors,242976.25
+2005,September,2005-09-01,Accommodation services for visitors,241087.51
+2005,October,2005-10-01,Accommodation services for visitors,315277.82
+2005,November,2005-11-01,Accommodation services for visitors,328523.61
+2005,December,2005-12-01,Accommodation services for visitors,463937.42
+2006,January,2006-01-01,Accommodation services for visitors,331643.17
+2006,February,2006-02-01,Accommodation services for visitors,351248.14
+2006,March,2006-03-01,Accommodation services for visitors,390446.49
+2006,April,2006-04-01,Accommodation services for visitors,438681.31
+2006,May,2006-05-01,Accommodation services for visitors,433629.44
+2006,June,2006-06-01,Accommodation services for visitors,346364.91
+2006,July,2006-07-01,Accommodation services for visitors,265478.81
+2006,August,2006-08-01,Accommodation services for visitors,251432.21
+2006,September,2006-09-01,Accommodation services for visitors,268220.66
+2006,October,2006-10-01,Accommodation services for visitors,367394.31
+2006,November,2006-11-01,Accommodation services for visitors,383271.61
+2006,December,2006-12-01,Accommodation services for visitors,492398.23
+2007,January,2007-01-01,Accommodation services for visitors,364928.7
+2007,February,2007-02-01,Accommodation services for visitors,371817.6
+2007,March,2007-03-01,Accommodation services for visitors,489328.81
+2007,April,2007-04-01,Accommodation services for visitors,485365.18
+2007,May,2007-05-01,Accommodation services for visitors,477291.99
+2007,June,2007-06-01,Accommodation services for visitors,397528.33
+2007,July,2007-07-01,Accommodation services for visitors,297112.78
+2007,August,2007-08-01,Accommodation services for visitors,307560.11
+2007,September,2007-09-01,Accommodation services for visitors,295149.93
+2007,October,2007-10-01,Accommodation services for visitors,401513.99
+2007,November,2007-11-01,Accommodation services for visitors,404188.83
+2007,December,2007-12-01,Accommodation services for visitors,532425.15
+2008,January,2008-01-01,Accommodation services for visitors,419695.58
+2008,February,2008-02-01,Accommodation services for visitors,422785.38
+2008,March,2008-03-01,Accommodation services for visitors,528831.11
+2008,April,2008-04-01,Accommodation services for visitors,529373.07
+2008,May,2008-05-01,Accommodation services for visitors,514677.15
+2008,June,2008-06-01,Accommodation services for visitors,428029.51
+2008,July,2008-07-01,Accommodation services for visitors,324380.26
+2008,August,2008-08-01,Accommodation services for visitors,322423.43
+2008,September,2008-09-01,Accommodation services for visitors,331388.76
+2008,October,2008-10-01,Accommodation services for visitors,452924.38
+2008,November,2008-11-01,Accommodation services for visitors,476520.1
+2008,December,2008-12-01,Accommodation services for visitors,616788.5
+2009,January,2009-01-01,Accommodation services for visitors,461538.74
+2009,February,2009-02-01,Accommodation services for visitors,460469.3
+2009,March,2009-03-01,Accommodation services for visitors,547791.43
+2009,April,2009-04-01,Accommodation services for visitors,585159.18
+2009,May,2009-05-01,Accommodation services for visitors,591066.07
+2009,June,2009-06-01,Accommodation services for visitors,510638.15
+2009,July,2009-07-01,Accommodation services for visitors,357176.83
+2009,August,2009-08-01,Accommodation services for visitors,365148.67
+2009,September,2009-09-01,Accommodation services for visitors,364120.43
+2009,October,2009-10-01,Accommodation services for visitors,472337.96
+2009,November,2009-11-01,Accommodation services for visitors,509902.35
+2009,December,2009-12-01,Accommodation services for visitors,685395.06
+2010,January,2010-01-01,Accommodation services for visitors,511865.48
+2010,February,2010-02-01,Accommodation services for visitors,489763.7
+2010,March,2010-03-01,Accommodation services for visitors,660420.63
+2010,April,2010-04-01,Accommodation services for visitors,611288.31
+2010,May,2010-05-01,Accommodation services for visitors,653811.67
+2010,June,2010-06-01,Accommodation services for visitors,551506.82
+2010,July,2010-07-01,Accommodation services for visitors,379138.44
+2010,August,2010-08-01,Accommodation services for visitors,386691.98
+2010,September,2010-09-01,Accommodation services for visitors,397183.86
+2010,October,2010-10-01,Accommodation services for visitors,523472.08
+2010,November,2010-11-01,Accommodation services for visitors,510111.85
+2010,December,2010-12-01,Accommodation services for visitors,728470.31
+2011,January,2011-01-01,Accommodation services for visitors,524726.94
+2011,February,2011-02-01,Accommodation services for visitors,553250.34
+2011,March,2011-03-01,Accommodation services for visitors,667321.35
+2011,April,2011-04-01,Accommodation services for visitors,722737.7
+2011,May,2011-05-01,Accommodation services for visitors,678669.17
+2011,June,2011-06-01,Accommodation services for visitors,554094.2
+2011,July,2011-07-01,Accommodation services for visitors,432555.23
+2011,August,2011-08-01,Accommodation services for visitors,409186.1
+2011,September,2011-09-01,Accommodation services for visitors,430417.17
+2011,October,2011-10-01,Accommodation services for visitors,595989.39
+2011,November,2011-11-01,Accommodation services for visitors,549174.47
+2011,December,2011-12-01,Accommodation services for visitors,788015.79
+2012,January,2012-01-01,Accommodation services for visitors,588553.15
+2012,February,2012-02-01,Accommodation services for visitors,601279.63
+2012,March,2012-03-01,Accommodation services for visitors,711336.08
+2012,April,2012-04-01,Accommodation services for visitors,713687.07
+2012,May,2012-05-01,Accommodation services for visitors,759204.54
+2012,June,2012-06-01,Accommodation services for visitors,606859.09
+2012,July,2012-07-01,Accommodation services for visitors,457159.83
+2012,August,2012-08-01,Accommodation services for visitors,461118.31
+2012,September,2012-09-01,Accommodation services for visitors,449636.06
+2012,October,2012-10-01,Accommodation services for visitors,619788.56
+2012,November,2012-11-01,Accommodation services for visitors,624442.36
+2012,December,2012-12-01,Accommodation services for visitors,822365.31
+2013,January,2013-01-01,Accommodation services for visitors,661039.25
+2013,February,2013-02-01,Accommodation services for visitors,638448.33
+2013,March,2013-03-01,Accommodation services for visitors,762971.43
+2013,April,2013-04-01,Accommodation services for visitors,811296.11
+2013,May,2013-05-01,Accommodation services for visitors,776607.64
+2013,June,2013-06-01,Accommodation services for visitors,658694.67
+2013,July,2013-07-01,Accommodation services for visitors,502116.26
+2013,August,2013-08-01,Accommodation services for visitors,475863.29
+2013,September,2013-09-01,Accommodation services for visitors,504676.08
+2013,October,2013-10-01,Accommodation services for visitors,665642.1
+2013,November,2013-11-01,Accommodation services for visitors,677301.45
+2013,December,2013-12-01,Accommodation services for visitors,948121.97
+2014,January,2014-01-01,Accommodation services for visitors,663082.42
+2014,February,2014-02-01,Accommodation services for visitors,656315.98
+2014,March,2014-03-01,Accommodation services for visitors,821234.17
+2014,April,2014-04-01,Accommodation services for visitors,827367.73
+2014,May,2014-05-01,Accommodation services for visitors,850528.12
+2014,June,2014-06-01,Accommodation services for visitors,692515.79
+2014,July,2014-07-01,Accommodation services for visitors,521039.4
+2014,August,2014-08-01,Accommodation services for visitors,532263.55
+2014,September,2014-09-01,Accommodation services for visitors,522203.61
+2014,October,2014-10-01,Accommodation services for visitors,730002.41
+2014,November,2014-11-01,Accommodation services for visitors,697418.39
+2014,December,2014-12-01,Accommodation services for visitors,1031607.88
+2015,January,2015-01-01,Accommodation services for visitors,723326.71
+2015,February,2015-02-01,Accommodation services for visitors,695152.54
+2015,March,2015-03-01,Accommodation services for visitors,867456.38
+2015,April,2015-04-01,Accommodation services for visitors,913660.8
+2015,May,2015-05-01,Accommodation services for visitors,898932.99
+2015,June,2015-06-01,Accommodation services for visitors,743083.06
+2015,July,2015-07-01,Accommodation services for visitors,556033.58
+2015,August,2015-08-01,Accommodation services for visitors,549671.41
+2015,September,2015-09-01,Accommodation services for visitors,539438.99
+2015,October,2015-10-01,Accommodation services for visitors,707802.22
+2015,November,2015-11-01,Accommodation services for visitors,735020.39
+2015,December,2015-12-01,Accommodation services for visitors,1036436.09
+2016,January,2016-01-01,Accommodation services for visitors,756829.95
+2016,February,2016-02-01,Accommodation services for visitors,727265.33
+2016,March,2016-03-01,Accommodation services for visitors,953679.16
+2016,April,2016-04-01,Accommodation services for visitors,964142.67
+2016,May,2016-05-01,Accommodation services for visitors,932111.2
+2016,June,2016-06-01,Accommodation services for visitors,773048.74
+2016,July,2016-07-01,Accommodation services for visitors,580762.4
+2016,August,2016-08-01,Accommodation services for visitors,562405.88
+2016,September,2016-09-01,Accommodation services for visitors,591279.17
+2016,October,2016-10-01,Accommodation services for visitors,796681.24
+2016,November,2016-11-01,Accommodation services for visitors,812570.84
+2016,December,2016-12-01,Accommodation services for visitors,1100912.74
+2017,January,2017-01-01,Accommodation services for visitors,761183.92
+2017,February,2017-02-01,Accommodation services for visitors,775062.54
+2017,March,2017-03-01,Accommodation services for visitors,1016720.37
+2017,April,2017-04-01,Accommodation services for visitors,1021125.28
+2017,May,2017-05-01,Accommodation services for visitors,1025605.94
+2017,June,2017-06-01,Accommodation services for visitors,905294.75
+2017,July,2017-07-01,Accommodation services for visitors,621718.7
+2017,August,2017-08-01,Accommodation services for visitors,634787.86
+2017,September,2017-09-01,Accommodation services for visitors,634144.26
+2017,October,2017-10-01,Accommodation services for visitors,841631.7
+2017,November,2017-11-01,Accommodation services for visitors,821159.25
+2017,December,2017-12-01,Accommodation services for visitors,1149464.6
+2018,January,2018-01-01,Accommodation services for visitors,816617.54
+2018,February,2018-02-01,Accommodation services for visitors,833535.72
+2018,March,2018-03-01,Accommodation services for visitors,1038406.44
+2018,April,2018-04-01,Accommodation services for visitors,1060723.99
+2018,May,2018-05-01,Accommodation services for visitors,1136279.74
+2018,June,2018-06-01,Accommodation services for visitors,805688.67
+2018,July,2018-07-01,Accommodation services for visitors,655982.81
+2018,August,2018-08-01,Accommodation services for visitors,614150.8
+2018,September,2018-09-01,Accommodation services for visitors,638825.64
+2018,October,2018-10-01,Accommodation services for visitors,895839.94
+2018,November,2018-11-01,Accommodation services for visitors,872679.64
+2018,December,2018-12-01,Accommodation services for visitors,1142404.24
+2019,January,2019-01-01,Accommodation services for visitors,859158.9
+2019,February,2019-02-01,Accommodation services for visitors,899471.96
+2019,March,2019-03-01,Accommodation services for visitors,1082010.96
+2019,April,2019-04-01,Accommodation services for visitors,1117837.13
+2019,May,2019-05-01,Accommodation services for visitors,1116524.38
+2019,June,2019-06-01,Accommodation services for visitors,877994.76
+2019,July,2019-07-01,Accommodation services for visitors,717616.63
+2019,August,2019-08-01,Accommodation services for visitors,689747.52
+2019,September,2019-09-01,Accommodation services for visitors,638217.47
+2019,October,2019-10-01,Accommodation services for visitors,914587.41
+2019,November,2019-11-01,Accommodation services for visitors,894873.67
+2019,December,2019-12-01,Accommodation services for visitors,1268915.83
+2020,January,2020-01-01,Accommodation services for visitors,943032.75
+2020,February,2020-02-01,Accommodation services for visitors,966337.29
+2020,March,2020-03-01,Accommodation services for visitors,176445.69
+2020,April,2020-04-01,Accommodation services for visitors,179000.17
+2020,May,2020-05-01,Accommodation services for visitors,168818.94
+2020,June,2020-06-01,Accommodation services for visitors,139213.82
+2020,July,2020-07-01,Accommodation services for visitors,104354.13
+2020,August,2020-08-01,Accommodation services for visitors,104173.64
+2020,September,2020-09-01,Accommodation services for visitors,112298.57
+2020,October,2020-10-01,Accommodation services for visitors,144459.03
+2020,November,2020-11-01,Accommodation services for visitors,137831.35
+2020,December,2020-12-01,Accommodation services for visitors,199440.86
+2021,January,2021-01-01,Accommodation services for visitors,61394.73
+2021,February,2021-02-01,Accommodation services for visitors,59724.32
+2021,March,2021-03-01,Accommodation services for visitors,69362.39
+2021,April,2021-04-01,Accommodation services for visitors,71877.94
+2021,May,2021-05-01,Accommodation services for visitors,75982.14
+2021,June,2021-06-01,Accommodation services for visitors,57522.31
+2021,July,2021-07-01,Accommodation services for visitors,44823.97
+2021,August,2021-08-01,Accommodation services for visitors,45424.14
+2021,September,2021-09-01,Accommodation services for visitors,43311.16
+2021,October,2021-10-01,Accommodation services for visitors,59503.55
+2021,November,2021-11-01,Accommodation services for visitors,54003.22
+2021,December,2021-12-01,Accommodation services for visitors,78549.99
+2022,January,2022-01-01,Accommodation services for visitors,448376.69
+2022,February,2022-02-01,Accommodation services for visitors,436403.59
+2022,March,2022-03-01,Accommodation services for visitors,596537.46
+2022,April,2022-04-01,Accommodation services for visitors,546172.68
+2022,May,2022-05-01,Accommodation services for visitors,565065.59
+2022,June,2022-06-01,Accommodation services for visitors,461477.95
+2022,July,2022-07-01,Accommodation services for visitors,360895.21
+2022,August,2022-08-01,Accommodation services for visitors,332166.31
+2022,September,2022-09-01,Accommodation services for visitors,360453.9
+2022,October,2022-10-01,Accommodation services for visitors,466118.05
+2022,November,2022-11-01,Accommodation services for visitors,453782.87
+2022,December,2022-12-01,Accommodation services for visitors,642098.51
+2023,January,2023-01-01,Accommodation services for visitors,1210083.47
+2023,February,2023-02-01,Accommodation services for visitors,1185192.5
+2023,March,2023-03-01,Accommodation services for visitors,1516857.26
+2023,April,2023-04-01,Accommodation services for visitors,1501163.26
+2023,May,2023-05-01,Accommodation services for visitors,1528939.16
+2023,June,2023-06-01,Accommodation services for visitors,1247319.07
+2023,July,2023-07-01,Accommodation services for visitors,964075.24
+2023,August,2023-08-01,Accommodation services for visitors,889019.77
+2023,September,2023-09-01,Accommodation services for visitors,985601.46
+2023,October,2023-10-01,Accommodation services for visitors,1166558.58
+2023,November,2023-11-01,Accommodation services for visitors,1237489.25
+2023,December,2023-12-01,Accommodation services for visitors,1713402.5
+2024,January,2024-01-01,Accommodation services for visitors,1371464.47
+2024,February,2024-02-01,Accommodation services for visitors,1338887.13
+2024,March,2024-03-01,Accommodation services for visitors,1700254.98
+2024,April,2024-04-01,Accommodation services for visitors,1691020.55
+2024,May,2024-05-01,Accommodation services for visitors,1691430.63
+2024,June,2024-06-01,Accommodation services for visitors,1417096.32
+2024,July,2024-07-01,Accommodation services for visitors,1050823.04
+2024,August,2024-08-01,Accommodation services for visitors,1021288.26
+2024,September,2024-09-01,Accommodation services for visitors,1074486.19
+2024,October,2024-10-01,Accommodation services for visitors,1412275.82
+2024,November,2024-11-01,Accommodation services for visitors,1437981.66
+2024,December,2024-12-01,Accommodation services for visitors,1936875.89
+2025,January,2025-01-01,Accommodation services for visitors,1377371.34
+2025,February,2025-02-01,Accommodation services for visitors,1393063.8
+2025,March,2025-03-01,Accommodation services for visitors,1816390.91
+2025,April,2025-04-01,Accommodation services for visitors,1814662.22
+2025,May,2025-05-01,Accommodation services for visitors,1786379.15
+2025,June,2025-06-01,Accommodation services for visitors,1439423.74
+2025,July,2025-07-01,Accommodation services for visitors,1120422.91
+2025,August,2025-08-01,Accommodation services for visitors,1063135.24
+2025,September,2025-09-01,Accommodation services for visitors,1103443.28
+2025,October,2025-10-01,Accommodation services for visitors,1443068.25
+2025,November,2025-11-01,Accommodation services for visitors,1446740.05
+2025,December,2025-12-01,Accommodation services for visitors,2036842.24
+2000,January,2000-01-01,Food and beverage serving services,61485.75
+2000,February,2000-02-01,Food and beverage serving services,64537.53
+2000,March,2000-03-01,Food and beverage serving services,85731.06
+2000,April,2000-04-01,Food and beverage serving services,86304.35
+2000,May,2000-05-01,Food and beverage serving services,91841.27
+2000,June,2000-06-01,Food and beverage serving services,74301.9
+2000,July,2000-07-01,Food and beverage serving services,59068.91
+2000,August,2000-08-01,Food and beverage serving services,60512.81
+2000,September,2000-09-01,Food and beverage serving services,63183.32
+2000,October,2000-10-01,Food and beverage serving services,88553.36
+2000,November,2000-11-01,Food and beverage serving services,87790.8
+2000,December,2000-12-01,Food and beverage serving services,133430.98
+2001,January,2001-01-01,Food and beverage serving services,93102.67
+2001,February,2001-02-01,Food and beverage serving services,95393.86
+2001,March,2001-03-01,Food and beverage serving services,131929.77
+2001,April,2001-04-01,Food and beverage serving services,134367.17
+2001,May,2001-05-01,Food and beverage serving services,137527.69
+2001,June,2001-06-01,Food and beverage serving services,113092.39
+2001,July,2001-07-01,Food and beverage serving services,85468.59
+2001,August,2001-08-01,Food and beverage serving services,85387.98
+2001,September,2001-09-01,Food and beverage serving services,90204.67
+2001,October,2001-10-01,Food and beverage serving services,120501.27
+2001,November,2001-11-01,Food and beverage serving services,129685.95
+2001,December,2001-12-01,Food and beverage serving services,173381.7
+2002,January,2002-01-01,Food and beverage serving services,128731.03
+2002,February,2002-02-01,Food and beverage serving services,133698.39
+2002,March,2002-03-01,Food and beverage serving services,174636.92
+2002,April,2002-04-01,Food and beverage serving services,173269.31
+2002,May,2002-05-01,Food and beverage serving services,175560.01
+2002,June,2002-06-01,Food and beverage serving services,148074.66
+2002,July,2002-07-01,Food and beverage serving services,113326.76
+2002,August,2002-08-01,Food and beverage serving services,113004.85
+2002,September,2002-09-01,Food and beverage serving services,115346.66
+2002,October,2002-10-01,Food and beverage serving services,160106.88
+2002,November,2002-11-01,Food and beverage serving services,154962.31
+2002,December,2002-12-01,Food and beverage serving services,213344.62
+2003,January,2003-01-01,Food and beverage serving services,164379.04
+2003,February,2003-02-01,Food and beverage serving services,169905.02
+2003,March,2003-03-01,Food and beverage serving services,219528.67
+2003,April,2003-04-01,Food and beverage serving services,231042.68
+2003,May,2003-05-01,Food and beverage serving services,230789.2
+2003,June,2003-06-01,Food and beverage serving services,182121.94
+2003,July,2003-07-01,Food and beverage serving services,139420.42
+2003,August,2003-08-01,Food and beverage serving services,137486.74
+2003,September,2003-09-01,Food and beverage serving services,143920.02
+2003,October,2003-10-01,Food and beverage serving services,193311.35
+2003,November,2003-11-01,Food and beverage serving services,199916.95
+2003,December,2003-12-01,Food and beverage serving services,264615.93
+2004,January,2004-01-01,Food and beverage serving services,207178.4
+2004,February,2004-02-01,Food and beverage serving services,216518.31
+2004,March,2004-03-01,Food and beverage serving services,261643.51
+2004,April,2004-04-01,Food and beverage serving services,269458.67
+2004,May,2004-05-01,Food and beverage serving services,275590.17
+2004,June,2004-06-01,Food and beverage serving services,216363.98
+2004,July,2004-07-01,Food and beverage serving services,167619.34
+2004,August,2004-08-01,Food and beverage serving services,168813.75
+2004,September,2004-09-01,Food and beverage serving services,171501.08
+2004,October,2004-10-01,Food and beverage serving services,225643.04
+2004,November,2004-11-01,Food and beverage serving services,234172.06
+2004,December,2004-12-01,Food and beverage serving services,324730.04
+2005,January,2005-01-01,Food and beverage serving services,250448.23
+2005,February,2005-02-01,Food and beverage serving services,249993.08
+2005,March,2005-03-01,Food and beverage serving services,327363.11
+2005,April,2005-04-01,Food and beverage serving services,304084.89
+2005,May,2005-05-01,Food and beverage serving services,323243.43
+2005,June,2005-06-01,Food and beverage serving services,256402.57
+2005,July,2005-07-01,Food and beverage serving services,206211.81
+2005,August,2005-08-01,Food and beverage serving services,191003.27
+2005,September,2005-09-01,Food and beverage serving services,193012.05
+2005,October,2005-10-01,Food and beverage serving services,262198.86
+2005,November,2005-11-01,Food and beverage serving services,252796.44
+2005,December,2005-12-01,Food and beverage serving services,362736.99
+2006,January,2006-01-01,Food and beverage serving services,269714.38
+2006,February,2006-02-01,Food and beverage serving services,280258.8
+2006,March,2006-03-01,Food and beverage serving services,356114.07
+2006,April,2006-04-01,Food and beverage serving services,376301.58
+2006,May,2006-05-01,Food and beverage serving services,370264.58
+2006,June,2006-06-01,Food and beverage serving services,285963.63
+2006,July,2006-07-01,Food and beverage serving services,214556.99
+2006,August,2006-08-01,Food and beverage serving services,226037.25
+2006,September,2006-09-01,Food and beverage serving services,216088.43
+2006,October,2006-10-01,Food and beverage serving services,319647.96
+2006,November,2006-11-01,Food and beverage serving services,316827.26
+2006,December,2006-12-01,Food and beverage serving services,411278.5
+2007,January,2007-01-01,Food and beverage serving services,295965.06
+2007,February,2007-02-01,Food and beverage serving services,327794.09
+2007,March,2007-03-01,Food and beverage serving services,396134.11
+2007,April,2007-04-01,Food and beverage serving services,416150.21
+2007,May,2007-05-01,Food and beverage serving services,385627.7
+2007,June,2007-06-01,Food and beverage serving services,321120.13
+2007,July,2007-07-01,Food and beverage serving services,247538.93
+2007,August,2007-08-01,Food and beverage serving services,250102.0
+2007,September,2007-09-01,Food and beverage serving services,248597.51
+2007,October,2007-10-01,Food and beverage serving services,345334.38
+2007,November,2007-11-01,Food and beverage serving services,331046.21
+2007,December,2007-12-01,Food and beverage serving services,463760.6
+2008,January,2008-01-01,Food and beverage serving services,349255.89
+2008,February,2008-02-01,Food and beverage serving services,356417.04
+2008,March,2008-03-01,Food and beverage serving services,451946.69
+2008,April,2008-04-01,Food and beverage serving services,431193.85
+2008,May,2008-05-01,Food and beverage serving services,429289.46
+2008,June,2008-06-01,Food and beverage serving services,376913.9
+2008,July,2008-07-01,Food and beverage serving services,277236.61
+2008,August,2008-08-01,Food and beverage serving services,270535.69
+2008,September,2008-09-01,Food and beverage serving services,291983.14
+2008,October,2008-10-01,Food and beverage serving services,376301.34
+2008,November,2008-11-01,Food and beverage serving services,391373.23
+2008,December,2008-12-01,Food and beverage serving services,515391.84
+2009,January,2009-01-01,Food and beverage serving services,407739.82
+2009,February,2009-02-01,Food and beverage serving services,407379.51
+2009,March,2009-03-01,Food and beverage serving services,483858.9
+2009,April,2009-04-01,Food and beverage serving services,505568.53
+2009,May,2009-05-01,Food and beverage serving services,504583.83
+2009,June,2009-06-01,Food and beverage serving services,415382.52
+2009,July,2009-07-01,Food and beverage serving services,292772.27
+2009,August,2009-08-01,Food and beverage serving services,310001.64
+2009,September,2009-09-01,Food and beverage serving services,315716.34
+2009,October,2009-10-01,Food and beverage serving services,389314.74
+2009,November,2009-11-01,Food and beverage serving services,399303.93
+2009,December,2009-12-01,Food and beverage serving services,528510.43
+2010,January,2010-01-01,Food and beverage serving services,416605.47
+2010,February,2010-02-01,Food and beverage serving services,432105.61
+2010,March,2010-03-01,Food and beverage serving services,556500.15
+2010,April,2010-04-01,Food and beverage serving services,537442.0
+2010,May,2010-05-01,Food and beverage serving services,566383.57
+2010,June,2010-06-01,Food and beverage serving services,416989.68
+2010,July,2010-07-01,Food and beverage serving services,311713.17
+2010,August,2010-08-01,Food and beverage serving services,330198.83
+2010,September,2010-09-01,Food and beverage serving services,336836.81
+2010,October,2010-10-01,Food and beverage serving services,446561.56
+2010,November,2010-11-01,Food and beverage serving services,422089.53
+2010,December,2010-12-01,Food and beverage serving services,609914.96
+2011,January,2011-01-01,Food and beverage serving services,438154.86
+2011,February,2011-02-01,Food and beverage serving services,468221.39
+2011,March,2011-03-01,Food and beverage serving services,583851.31
+2011,April,2011-04-01,Food and beverage serving services,564860.85
+2011,May,2011-05-01,Food and beverage serving services,575981.64
+2011,June,2011-06-01,Food and beverage serving services,456033.31
+2011,July,2011-07-01,Food and beverage serving services,354831.53
+2011,August,2011-08-01,Food and beverage serving services,368001.06
+2011,September,2011-09-01,Food and beverage serving services,349354.16
+2011,October,2011-10-01,Food and beverage serving services,490303.63
+2011,November,2011-11-01,Food and beverage serving services,478268.84
+2011,December,2011-12-01,Food and beverage serving services,644447.55
+2012,January,2012-01-01,Food and beverage serving services,490420.23
+2012,February,2012-02-01,Food and beverage serving services,479626.65
+2012,March,2012-03-01,Food and beverage serving services,612160.6
+2012,April,2012-04-01,Food and beverage serving services,603744.87
+2012,May,2012-05-01,Food and beverage serving services,667133.31
+2012,June,2012-06-01,Food and beverage serving services,507536.36
+2012,July,2012-07-01,Food and beverage serving services,374470.65
+2012,August,2012-08-01,Food and beverage serving services,387219.86
+2012,September,2012-09-01,Food and beverage serving services,385695.87
+2012,October,2012-10-01,Food and beverage serving services,515559.5
+2012,November,2012-11-01,Food and beverage serving services,531617.85
+2012,December,2012-12-01,Food and beverage serving services,724856.51
+2013,January,2013-01-01,Food and beverage serving services,519596.86
+2013,February,2013-02-01,Food and beverage serving services,521827.22
+2013,March,2013-03-01,Food and beverage serving services,661992.09
+2013,April,2013-04-01,Food and beverage serving services,624895.06
+2013,May,2013-05-01,Food and beverage serving services,644317.38
+2013,June,2013-06-01,Food and beverage serving services,565266.38
+2013,July,2013-07-01,Food and beverage serving services,429708.43
+2013,August,2013-08-01,Food and beverage serving services,408673.78
+2013,September,2013-09-01,Food and beverage serving services,421160.84
+2013,October,2013-10-01,Food and beverage serving services,560182.32
+2013,November,2013-11-01,Food and beverage serving services,609540.46
+2013,December,2013-12-01,Food and beverage serving services,782787.3
+2014,January,2014-01-01,Food and beverage serving services,561835.63
+2014,February,2014-02-01,Food and beverage serving services,550746.26
+2014,March,2014-03-01,Food and beverage serving services,678162.21
+2014,April,2014-04-01,Food and beverage serving services,720621.92
+2014,May,2014-05-01,Food and beverage serving services,703662.82
+2014,June,2014-06-01,Food and beverage serving services,554295.45
+2014,July,2014-07-01,Food and beverage serving services,428033.13
+2014,August,2014-08-01,Food and beverage serving services,424514.12
+2014,September,2014-09-01,Food and beverage serving services,463320.88
+2014,October,2014-10-01,Food and beverage serving services,606631.47
+2014,November,2014-11-01,Food and beverage serving services,593857.93
+2014,December,2014-12-01,Food and beverage serving services,841732.83
+2015,January,2015-01-01,Food and beverage serving services,601392.63
+2015,February,2015-02-01,Food and beverage serving services,587419.37
+2015,March,2015-03-01,Food and beverage serving services,792112.99
+2015,April,2015-04-01,Food and beverage serving services,773557.36
+2015,May,2015-05-01,Food and beverage serving services,741195.2
+2015,June,2015-06-01,Food and beverage serving services,611488.25
+2015,July,2015-07-01,Food and beverage serving services,451324.53
+2015,August,2015-08-01,Food and beverage serving services,446428.83
+2015,September,2015-09-01,Food and beverage serving services,481003.53
+2015,October,2015-10-01,Food and beverage serving services,662916.13
+2015,November,2015-11-01,Food and beverage serving services,603567.07
+2015,December,2015-12-01,Food and beverage serving services,868982.56
+2016,January,2016-01-01,Food and beverage serving services,623585.74
+2016,February,2016-02-01,Food and beverage serving services,629661.81
+2016,March,2016-03-01,Food and beverage serving services,788238.12
+2016,April,2016-04-01,Food and beverage serving services,785352.22
+2016,May,2016-05-01,Food and beverage serving services,811179.08
+2016,June,2016-06-01,Food and beverage serving services,634771.54
+2016,July,2016-07-01,Food and beverage serving services,494479.77
+2016,August,2016-08-01,Food and beverage serving services,492007.36
+2016,September,2016-09-01,Food and beverage serving services,491451.62
+2016,October,2016-10-01,Food and beverage serving services,644948.56
+2016,November,2016-11-01,Food and beverage serving services,654476.11
+2016,December,2016-12-01,Food and beverage serving services,923616.95
+2017,January,2017-01-01,Food and beverage serving services,682098.49
+2017,February,2017-02-01,Food and beverage serving services,655204.51
+2017,March,2017-03-01,Food and beverage serving services,850025.52
+2017,April,2017-04-01,Food and beverage serving services,870438.55
+2017,May,2017-05-01,Food and beverage serving services,812179.75
+2017,June,2017-06-01,Food and beverage serving services,698198.65
+2017,July,2017-07-01,Food and beverage serving services,507212.77
+2017,August,2017-08-01,Food and beverage serving services,528647.06
+2017,September,2017-09-01,Food and beverage serving services,510047.36
+2017,October,2017-10-01,Food and beverage serving services,661151.62
+2017,November,2017-11-01,Food and beverage serving services,667723.96
+2017,December,2017-12-01,Food and beverage serving services,953122.95
+2018,January,2018-01-01,Food and beverage serving services,713516.51
+2018,February,2018-02-01,Food and beverage serving services,691710.93
+2018,March,2018-03-01,Food and beverage serving services,909598.31
+2018,April,2018-04-01,Food and beverage serving services,851575.88
+2018,May,2018-05-01,Food and beverage serving services,898215.85
+2018,June,2018-06-01,Food and beverage serving services,696733.06
+2018,July,2018-07-01,Food and beverage serving services,533852.26
+2018,August,2018-08-01,Food and beverage serving services,547527.46
+2018,September,2018-09-01,Food and beverage serving services,534828.99
+2018,October,2018-10-01,Food and beverage serving services,726520.55
+2018,November,2018-11-01,Food and beverage serving services,760279.32
+2018,December,2018-12-01,Food and beverage serving services,983037.19
+2019,January,2019-01-01,Food and beverage serving services,762652.65
+2019,February,2019-02-01,Food and beverage serving services,721683.27
+2019,March,2019-03-01,Food and beverage serving services,952400.74
+2019,April,2019-04-01,Food and beverage serving services,981956.29
+2019,May,2019-05-01,Food and beverage serving services,874928.88
+2019,June,2019-06-01,Food and beverage serving services,740854.7
+2019,July,2019-07-01,Food and beverage serving services,581393.9
+2019,August,2019-08-01,Food and beverage serving services,570255.08
+2019,September,2019-09-01,Food and beverage serving services,582413.4
+2019,October,2019-10-01,Food and beverage serving services,757029.82
+2019,November,2019-11-01,Food and beverage serving services,776010.61
+2019,December,2019-12-01,Food and beverage serving services,1044051.07
+2020,January,2020-01-01,Food and beverage serving services,847692.41
+2020,February,2020-02-01,Food and beverage serving services,828425.16
+2020,March,2020-03-01,Food and beverage serving services,148867.63
+2020,April,2020-04-01,Food and beverage serving services,146109.54
+2020,May,2020-05-01,Food and beverage serving services,146327.71
+2020,June,2020-06-01,Food and beverage serving services,117702.52
+2020,July,2020-07-01,Food and beverage serving services,90837.36
+2020,August,2020-08-01,Food and beverage serving services,88974.42
+2020,September,2020-09-01,Food and beverage serving services,91236.3
+2020,October,2020-10-01,Food and beverage serving services,128586.82
+2020,November,2020-11-01,Food and beverage serving services,124675.25
+2020,December,2020-12-01,Food and beverage serving services,163022.28
+2021,January,2021-01-01,Food and beverage serving services,50724.34
+2021,February,2021-02-01,Food and beverage serving services,48538.42
+2021,March,2021-03-01,Food and beverage serving services,57880.49
+2021,April,2021-04-01,Food and beverage serving services,60003.74
+2021,May,2021-05-01,Food and beverage serving services,58614.71
+2021,June,2021-06-01,Food and beverage serving services,49334.21
+2021,July,2021-07-01,Food and beverage serving services,37550.74
+2021,August,2021-08-01,Food and beverage serving services,39559.29
+2021,September,2021-09-01,Food and beverage serving services,38170.74
+2021,October,2021-10-01,Food and beverage serving services,50247.54
+2021,November,2021-11-01,Food and beverage serving services,52023.02
+2021,December,2021-12-01,Food and beverage serving services,64207.27
+2022,January,2022-01-01,Food and beverage serving services,386110.04
+2022,February,2022-02-01,Food and beverage serving services,393647.71
+2022,March,2022-03-01,Food and beverage serving services,461216.92
+2022,April,2022-04-01,Food and beverage serving services,500930.53
+2022,May,2022-05-01,Food and beverage serving services,490935.28
+2022,June,2022-06-01,Food and beverage serving services,385289.26
+2022,July,2022-07-01,Food and beverage serving services,299199.02
+2022,August,2022-08-01,Food and beverage serving services,314708.44
+2022,September,2022-09-01,Food and beverage serving services,297263.06
+2022,October,2022-10-01,Food and beverage serving services,398495.51
+2022,November,2022-11-01,Food and beverage serving services,391430.39
+2022,December,2022-12-01,Food and beverage serving services,523930.25
+2023,January,2023-01-01,Food and beverage serving services,1046638.17
+2023,February,2023-02-01,Food and beverage serving services,998334.41
+2023,March,2023-03-01,Food and beverage serving services,1287884.15
+2023,April,2023-04-01,Food and beverage serving services,1270960.22
+2023,May,2023-05-01,Food and beverage serving services,1312340.4
+2023,June,2023-06-01,Food and beverage serving services,1048844.74
+2023,July,2023-07-01,Food and beverage serving services,805747.79
+2023,August,2023-08-01,Food and beverage serving services,772016.72
+2023,September,2023-09-01,Food and beverage serving services,780231.49
+2023,October,2023-10-01,Food and beverage serving services,1021352.88
+2023,November,2023-11-01,Food and beverage serving services,1041628.79
+2023,December,2023-12-01,Food and beverage serving services,1446037.02
+2024,January,2024-01-01,Food and beverage serving services,1181229.66
+2024,February,2024-02-01,Food and beverage serving services,1126693.23
+2024,March,2024-03-01,Food and beverage serving services,1491034.38
+2024,April,2024-04-01,Food and beverage serving services,1517100.47
+2024,May,2024-05-01,Food and beverage serving services,1480639.46
+2024,June,2024-06-01,Food and beverage serving services,1239836.67
+2024,July,2024-07-01,Food and beverage serving services,862624.42
+2024,August,2024-08-01,Food and beverage serving services,852856.91
+2024,September,2024-09-01,Food and beverage serving services,841324.87
+2024,October,2024-10-01,Food and beverage serving services,1242102.68
+2024,November,2024-11-01,Food and beverage serving services,1215909.93
+2024,December,2024-12-01,Food and beverage serving services,1612244.53
+2025,January,2025-01-01,Food and beverage serving services,1210078.87
+2025,February,2025-02-01,Food and beverage serving services,1163105.78
+2025,March,2025-03-01,Food and beverage serving services,1620121.71
+2025,April,2025-04-01,Food and beverage serving services,1519931.97
+2025,May,2025-05-01,Food and beverage serving services,1523734.3
+2025,June,2025-06-01,Food and beverage serving services,1245285.84
+2025,July,2025-07-01,Food and beverage serving services,930105.76
+2025,August,2025-08-01,Food and beverage serving services,925864.6
+2025,September,2025-09-01,Food and beverage serving services,900623.62
+2025,October,2025-10-01,Food and beverage serving services,1251200.22
+2025,November,2025-11-01,Food and beverage serving services,1307370.16
+2025,December,2025-12-01,Food and beverage serving services,1743322.61
+2000,January,2000-01-01,Transport services,94301.6
+2000,February,2000-02-01,Transport services,92558.37
+2000,March,2000-03-01,Transport services,118863.2
+2000,April,2000-04-01,Transport services,127018.87
+2000,May,2000-05-01,Transport services,132721.51
+2000,June,2000-06-01,Transport services,113610.83
+2000,July,2000-07-01,Transport services,81158.83
+2000,August,2000-08-01,Transport services,92560.96
+2000,September,2000-09-01,Transport services,91066.27
+2000,October,2000-10-01,Transport services,124386.39
+2000,November,2000-11-01,Transport services,126052.79
+2000,December,2000-12-01,Transport services,171919.09
+2001,January,2001-01-01,Transport services,141407.93
+2001,February,2001-02-01,Transport services,142312.33
+2001,March,2001-03-01,Transport services,175437.46
+2001,April,2001-04-01,Transport services,180215.18
+2001,May,2001-05-01,Transport services,190560.84
+2001,June,2001-06-01,Transport services,165911.16
+2001,July,2001-07-01,Transport services,120553.79
+2001,August,2001-08-01,Transport services,118885.76
+2001,September,2001-09-01,Transport services,126560.03
+2001,October,2001-10-01,Transport services,172576.38
+2001,November,2001-11-01,Transport services,163598.63
+2001,December,2001-12-01,Transport services,245299.79
+2002,January,2002-01-01,Transport services,184711.39
+2002,February,2002-02-01,Transport services,193968.38
+2002,March,2002-03-01,Transport services,255951.16
+2002,April,2002-04-01,Transport services,255864.75
+2002,May,2002-05-01,Transport services,250463.17
+2002,June,2002-06-01,Transport services,199161.67
+2002,July,2002-07-01,Transport services,169659.13
+2002,August,2002-08-01,Transport services,160785.14
+2002,September,2002-09-01,Transport services,163568.32
+2002,October,2002-10-01,Transport services,221839.33
+2002,November,2002-11-01,Transport services,227343.01
+2002,December,2002-12-01,Transport services,309155.28
+2003,January,2003-01-01,Transport services,229972.89
+2003,February,2003-02-01,Transport services,234095.43
+2003,March,2003-03-01,Transport services,302202.76
+2003,April,2003-04-01,Transport services,302486.91
+2003,May,2003-05-01,Transport services,305817.07
+2003,June,2003-06-01,Transport services,254811.0
+2003,July,2003-07-01,Transport services,192019.86
+2003,August,2003-08-01,Transport services,205366.04
+2003,September,2003-09-01,Transport services,183633.95
+2003,October,2003-10-01,Transport services,278841.21
+2003,November,2003-11-01,Transport services,284242.82
+2003,December,2003-12-01,Transport services,351955.7
+2004,January,2004-01-01,Transport services,279100.86
+2004,February,2004-02-01,Transport services,282813.04
+2004,March,2004-03-01,Transport services,347193.31
+2004,April,2004-04-01,Transport services,358924.57
+2004,May,2004-05-01,Transport services,360089.31
+2004,June,2004-06-01,Transport services,317875.57
+2004,July,2004-07-01,Transport services,235942.15
+2004,August,2004-08-01,Transport services,241369.1
+2004,September,2004-09-01,Transport services,240598.61
+2004,October,2004-10-01,Transport services,307228.85
+2004,November,2004-11-01,Transport services,316933.13
+2004,December,2004-12-01,Transport services,446561.21
+2005,January,2005-01-01,Transport services,317900.93
+2005,February,2005-02-01,Transport services,341144.24
+2005,March,2005-03-01,Transport services,419453.88
+2005,April,2005-04-01,Transport services,422692.92
+2005,May,2005-05-01,Transport services,441724.71
+2005,June,2005-06-01,Transport services,354664.76
+2005,July,2005-07-01,Transport services,262624.9
+2005,August,2005-08-01,Transport services,277838.4
+2005,September,2005-09-01,Transport services,262694.74
+2005,October,2005-10-01,Transport services,372762.97
+2005,November,2005-11-01,Transport services,376583.42
+2005,December,2005-12-01,Transport services,500211.3
+2006,January,2006-01-01,Transport services,381698.35
+2006,February,2006-02-01,Transport services,367662.24
+2006,March,2006-03-01,Transport services,495875.29
+2006,April,2006-04-01,Transport services,484795.81
+2006,May,2006-05-01,Transport services,484776.77
+2006,June,2006-06-01,Transport services,410525.17
+2006,July,2006-07-01,Transport services,295129.21
+2006,August,2006-08-01,Transport services,291633.71
+2006,September,2006-09-01,Transport services,293140.1
+2006,October,2006-10-01,Transport services,421526.64
+2006,November,2006-11-01,Transport services,401943.42
+2006,December,2006-12-01,Transport services,599691.19
+2007,January,2007-01-01,Transport services,399392.94
+2007,February,2007-02-01,Transport services,451884.29
+2007,March,2007-03-01,Transport services,545934.31
+2007,April,2007-04-01,Transport services,545911.49
+2007,May,2007-05-01,Transport services,543467.97
+2007,June,2007-06-01,Transport services,451340.44
+2007,July,2007-07-01,Transport services,337118.95
+2007,August,2007-08-01,Transport services,351770.23
+2007,September,2007-09-01,Transport services,344677.12
+2007,October,2007-10-01,Transport services,464083.18
+2007,November,2007-11-01,Transport services,460916.7
+2007,December,2007-12-01,Transport services,633416.04
+2008,January,2008-01-01,Transport services,478376.94
+2008,February,2008-02-01,Transport services,453476.19
+2008,March,2008-03-01,Transport services,578131.55
+2008,April,2008-04-01,Transport services,621045.99
+2008,May,2008-05-01,Transport services,615639.65
+2008,June,2008-06-01,Transport services,491273.37
+2008,July,2008-07-01,Transport services,373706.55
+2008,August,2008-08-01,Transport services,380425.94
+2008,September,2008-09-01,Transport services,373354.84
+2008,October,2008-10-01,Transport services,498091.94
+2008,November,2008-11-01,Transport services,517019.93
+2008,December,2008-12-01,Transport services,678774.72
+2009,January,2009-01-01,Transport services,528393.24
+2009,February,2009-02-01,Transport services,499133.23
+2009,March,2009-03-01,Transport services,682954.47
+2009,April,2009-04-01,Transport services,676963.76
+2009,May,2009-05-01,Transport services,677665.4
+2009,June,2009-06-01,Transport services,557978.56
+2009,July,2009-07-01,Transport services,429960.35
+2009,August,2009-08-01,Transport services,425052.83
+2009,September,2009-09-01,Transport services,392553.5
+2009,October,2009-10-01,Transport services,536579.88
+2009,November,2009-11-01,Transport services,551465.56
+2009,December,2009-12-01,Transport services,764698.09
+2010,January,2010-01-01,Transport services,578851.97
+2010,February,2010-02-01,Transport services,561502.69
+2010,March,2010-03-01,Transport services,726548.17
+2010,April,2010-04-01,Transport services,711013.77
+2010,May,2010-05-01,Transport services,719061.9
+2010,June,2010-06-01,Transport services,565102.1
+2010,July,2010-07-01,Transport services,433160.99
+2010,August,2010-08-01,Transport services,430313.08
+2010,September,2010-09-01,Transport services,438281.8
+2010,October,2010-10-01,Transport services,625155.21
+2010,November,2010-11-01,Transport services,592626.0
+2010,December,2010-12-01,Transport services,894359.44
+2011,January,2011-01-01,Transport services,627146.11
+2011,February,2011-02-01,Transport services,625449.04
+2011,March,2011-03-01,Transport services,762350.05
+2011,April,2011-04-01,Transport services,804044.82
+2011,May,2011-05-01,Transport services,778814.21
+2011,June,2011-06-01,Transport services,640335.27
+2011,July,2011-07-01,Transport services,518480.42
+2011,August,2011-08-01,Transport services,483103.77
+2011,September,2011-09-01,Transport services,504308.12
+2011,October,2011-10-01,Transport services,640203.68
+2011,November,2011-11-01,Transport services,657309.33
+2011,December,2011-12-01,Transport services,941176.94
+2012,January,2012-01-01,Transport services,653473.2
+2012,February,2012-02-01,Transport services,706430.22
+2012,March,2012-03-01,Transport services,860388.43
+2012,April,2012-04-01,Transport services,833199.28
+2012,May,2012-05-01,Transport services,868673.83
+2012,June,2012-06-01,Transport services,706015.17
+2012,July,2012-07-01,Transport services,527153.6
+2012,August,2012-08-01,Transport services,495980.94
+2012,September,2012-09-01,Transport services,512080.31
+2012,October,2012-10-01,Transport services,696787.26
+2012,November,2012-11-01,Transport services,704423.5
+2012,December,2012-12-01,Transport services,976347.43
+2013,January,2013-01-01,Transport services,717806.36
+2013,February,2013-02-01,Transport services,689236.68
+2013,March,2013-03-01,Transport services,912793.86
+2013,April,2013-04-01,Transport services,924123.2
+2013,May,2013-05-01,Transport services,927824.26
+2013,June,2013-06-01,Transport services,757798.79
+2013,July,2013-07-01,Transport services,567347.28
+2013,August,2013-08-01,Transport services,564166.01
+2013,September,2013-09-01,Transport services,558322.27
+2013,October,2013-10-01,Transport services,712628.38
+2013,November,2013-11-01,Transport services,763717.96
+2013,December,2013-12-01,Transport services,1029675.8
+2014,January,2014-01-01,Transport services,768208.29
+2014,February,2014-02-01,Transport services,736660.32
+2014,March,2014-03-01,Transport services,931284.49
+2014,April,2014-04-01,Transport services,998067.76
+2014,May,2014-05-01,Transport services,971345.98
+2014,June,2014-06-01,Transport services,797988.01
+2014,July,2014-07-01,Transport services,590000.81
+2014,August,2014-08-01,Transport services,593028.92
+2014,September,2014-09-01,Transport services,612262.44
+2014,October,2014-10-01,Transport services,785645.89
+2014,November,2014-11-01,Transport services,804312.67
+2014,December,2014-12-01,Transport services,1073009.95
+2015,January,2015-01-01,Transport services,799441.74
+2015,February,2015-02-01,Transport services,806450.02
+2015,March,2015-03-01,Transport services,1029313.95
+2015,April,2015-04-01,Transport services,1012742.57
+2015,May,2015-05-01,Transport services,1071397.05
+2015,June,2015-06-01,Transport services,807724.28
+2015,July,2015-07-01,Transport services,621993.35
+2015,August,2015-08-01,Transport services,620208.87
+2015,September,2015-09-01,Transport services,658913.0
+2015,October,2015-10-01,Transport services,850988.56
+2015,November,2015-11-01,Transport services,876312.04
+2015,December,2015-12-01,Transport services,1101518.92
+2016,January,2016-01-01,Transport services,864873.87
+2016,February,2016-02-01,Transport services,885005.85
+2016,March,2016-03-01,Transport services,1085172.17
+2016,April,2016-04-01,Transport services,1122261.3
+2016,May,2016-05-01,Transport services,1075545.87
+2016,June,2016-06-01,Transport services,915122.21
+2016,July,2016-07-01,Transport services,707121.63
+2016,August,2016-08-01,Transport services,657266.81
+2016,September,2016-09-01,Transport services,658578.81
+2016,October,2016-10-01,Transport services,932979.77
+2016,November,2016-11-01,Transport services,940553.67
+2016,December,2016-12-01,Transport services,1198599.4
+2017,January,2017-01-01,Transport services,894579.32
+2017,February,2017-02-01,Transport services,902307.28
+2017,March,2017-03-01,Transport services,1096418.96
+2017,April,2017-04-01,Transport services,1115875.41
+2017,May,2017-05-01,Transport services,1117781.83
+2017,June,2017-06-01,Transport services,904670.58
+2017,July,2017-07-01,Transport services,696774.22
+2017,August,2017-08-01,Transport services,705422.02
+2017,September,2017-09-01,Transport services,736223.31
+2017,October,2017-10-01,Transport services,913786.51
+2017,November,2017-11-01,Transport services,973935.07
+2017,December,2017-12-01,Transport services,1274266.78
+2018,January,2018-01-01,Transport services,952584.35
+2018,February,2018-02-01,Transport services,977394.31
+2018,March,2018-03-01,Transport services,1161997.8
+2018,April,2018-04-01,Transport services,1221352.79
+2018,May,2018-05-01,Transport services,1218554.7
+2018,June,2018-06-01,Transport services,988389.43
+2018,July,2018-07-01,Transport services,739863.16
+2018,August,2018-08-01,Transport services,790749.86
+2018,September,2018-09-01,Transport services,725351.74
+2018,October,2018-10-01,Transport services,974229.39
+2018,November,2018-11-01,Transport services,975417.95
+2018,December,2018-12-01,Transport services,1324848.17
+2019,January,2019-01-01,Transport services,982840.14
+2019,February,2019-02-01,Transport services,1041884.52
+2019,March,2019-03-01,Transport services,1316301.6
+2019,April,2019-04-01,Transport services,1245797.37
+2019,May,2019-05-01,Transport services,1240724.83
+2019,June,2019-06-01,Transport services,1036453.6
+2019,July,2019-07-01,Transport services,756751.93
+2019,August,2019-08-01,Transport services,787168.19
+2019,September,2019-09-01,Transport services,780221.0
+2019,October,2019-10-01,Transport services,990799.73
+2019,November,2019-11-01,Transport services,1090375.01
+2019,December,2019-12-01,Transport services,1488178.77
+2020,January,2020-01-01,Transport services,1082232.01
+2020,February,2020-02-01,Transport services,1093827.92
+2020,March,2020-03-01,Transport services,200076.26
+2020,April,2020-04-01,Transport services,201122.96
+2020,May,2020-05-01,Transport services,203823.8
+2020,June,2020-06-01,Transport services,170179.13
+2020,July,2020-07-01,Transport services,120183.61
+2020,August,2020-08-01,Transport services,118370.6
+2020,September,2020-09-01,Transport services,116688.07
+2020,October,2020-10-01,Transport services,159327.94
+2020,November,2020-11-01,Transport services,163337.51
+2020,December,2020-12-01,Transport services,233461.72
+2021,January,2021-01-01,Transport services,64856.99
+2021,February,2021-02-01,Transport services,66563.91
+2021,March,2021-03-01,Transport services,82909.13
+2021,April,2021-04-01,Transport services,86218.01
+2021,May,2021-05-01,Transport services,89883.76
+2021,June,2021-06-01,Transport services,66011.68
+2021,July,2021-07-01,Transport services,49748.65
+2021,August,2021-08-01,Transport services,52257.23
+2021,September,2021-09-01,Transport services,51890.23
+2021,October,2021-10-01,Transport services,71809.5
+2021,November,2021-11-01,Transport services,69476.12
+2021,December,2021-12-01,Transport services,91504.94
+2022,January,2022-01-01,Transport services,524838.02
+2022,February,2022-02-01,Transport services,534712.62
+2022,March,2022-03-01,Transport services,665102.86
+2022,April,2022-04-01,Transport services,661287.77
+2022,May,2022-05-01,Transport services,674541.16
+2022,June,2022-06-01,Transport services,543105.88
+2022,July,2022-07-01,Transport services,411248.4
+2022,August,2022-08-01,Transport services,403936.05
+2022,September,2022-09-01,Transport services,395581.74
+2022,October,2022-10-01,Transport services,534241.11
+2022,November,2022-11-01,Transport services,553017.42
+2022,December,2022-12-01,Transport services,705207.5
+2023,January,2023-01-01,Transport services,1388286.76
+2023,February,2023-02-01,Transport services,1361442.91
+2023,March,2023-03-01,Transport services,1729365.02
+2023,April,2023-04-01,Transport services,1800115.68
+2023,May,2023-05-01,Transport services,1749346.79
+2023,June,2023-06-01,Transport services,1398044.9
+2023,July,2023-07-01,Transport services,1007668.11
+2023,August,2023-08-01,Transport services,1077570.98
+2023,September,2023-09-01,Transport services,1077901.53
+2023,October,2023-10-01,Transport services,1506297.71
+2023,November,2023-11-01,Transport services,1405996.96
+2023,December,2023-12-01,Transport services,1934631.18
+2024,January,2024-01-01,Transport services,1564115.05
+2024,February,2024-02-01,Transport services,1631206.5
+2024,March,2024-03-01,Transport services,1947541.28
+2024,April,2024-04-01,Transport services,1975776.23
+2024,May,2024-05-01,Transport services,2001471.9
+2024,June,2024-06-01,Transport services,1586331.28
+2024,July,2024-07-01,Transport services,1170979.17
+2024,August,2024-08-01,Transport services,1197557.65
+2024,September,2024-09-01,Transport services,1232844.57
+2024,October,2024-10-01,Transport services,1548304.25
+2024,November,2024-11-01,Transport services,1608892.52
+2024,December,2024-12-01,Transport services,2124544.51
+2025,January,2025-01-01,Transport services,1670310.38
+2025,February,2025-02-01,Transport services,1543587.36
+2025,March,2025-03-01,Transport services,1994118.1
+2025,April,2025-04-01,Transport services,2057396.71
+2025,May,2025-05-01,Transport services,2136464.42
+2025,June,2025-06-01,Transport services,1634270.02
+2025,July,2025-07-01,Transport services,1211356.91
+2025,August,2025-08-01,Transport services,1305357.14
+2025,September,2025-09-01,Transport services,1185536.03
+2025,October,2025-10-01,Transport services,1548164.37
+2025,November,2025-11-01,Transport services,1684445.72
+2025,December,2025-12-01,Transport services,2217219.4
+2000,January,2000-01-01,Travel agencies and other reservation services,29080.89
+2000,February,2000-02-01,Travel agencies and other reservation services,31658.77
+2000,March,2000-03-01,Travel agencies and other reservation services,40292.56
+2000,April,2000-04-01,Travel agencies and other reservation services,40551.95
+2000,May,2000-05-01,Travel agencies and other reservation services,40867.61
+2000,June,2000-06-01,Travel agencies and other reservation services,35916.08
+2000,July,2000-07-01,Travel agencies and other reservation services,27526.66
+2000,August,2000-08-01,Travel agencies and other reservation services,27667.44
+2000,September,2000-09-01,Travel agencies and other reservation services,30078.87
+2000,October,2000-10-01,Travel agencies and other reservation services,37748.0
+2000,November,2000-11-01,Travel agencies and other reservation services,38169.37
+2000,December,2000-12-01,Travel agencies and other reservation services,54201.09
+2001,January,2001-01-01,Travel agencies and other reservation services,41942.56
+2001,February,2001-02-01,Travel agencies and other reservation services,43313.91
+2001,March,2001-03-01,Travel agencies and other reservation services,54601.96
+2001,April,2001-04-01,Travel agencies and other reservation services,56844.09
+2001,May,2001-05-01,Travel agencies and other reservation services,55341.09
+2001,June,2001-06-01,Travel agencies and other reservation services,49035.71
+2001,July,2001-07-01,Travel agencies and other reservation services,35911.28
+2001,August,2001-08-01,Travel agencies and other reservation services,37981.82
+2001,September,2001-09-01,Travel agencies and other reservation services,37885.57
+2001,October,2001-10-01,Travel agencies and other reservation services,51698.83
+2001,November,2001-11-01,Travel agencies and other reservation services,52888.84
+2001,December,2001-12-01,Travel agencies and other reservation services,72511.01
+2002,January,2002-01-01,Travel agencies and other reservation services,55041.21
+2002,February,2002-02-01,Travel agencies and other reservation services,57193.1
+2002,March,2002-03-01,Travel agencies and other reservation services,70412.69
+2002,April,2002-04-01,Travel agencies and other reservation services,72765.5
+2002,May,2002-05-01,Travel agencies and other reservation services,72304.82
+2002,June,2002-06-01,Travel agencies and other reservation services,61549.01
+2002,July,2002-07-01,Travel agencies and other reservation services,44086.87
+2002,August,2002-08-01,Travel agencies and other reservation services,48221.79
+2002,September,2002-09-01,Travel agencies and other reservation services,46443.98
+2002,October,2002-10-01,Travel agencies and other reservation services,60295.84
+2002,November,2002-11-01,Travel agencies and other reservation services,64245.96
+2002,December,2002-12-01,Travel agencies and other reservation services,85957.13
+2003,January,2003-01-01,Travel agencies and other reservation services,67664.47
+2003,February,2003-02-01,Travel agencies and other reservation services,65688.23
+2003,March,2003-03-01,Travel agencies and other reservation services,83862.23
+2003,April,2003-04-01,Travel agencies and other reservation services,81360.81
+2003,May,2003-05-01,Travel agencies and other reservation services,86312.7
+2003,June,2003-06-01,Travel agencies and other reservation services,65837.14
+2003,July,2003-07-01,Travel agencies and other reservation services,51434.08
+2003,August,2003-08-01,Travel agencies and other reservation services,55998.98
+2003,September,2003-09-01,Travel agencies and other reservation services,56808.36
+2003,October,2003-10-01,Travel agencies and other reservation services,75957.28
+2003,November,2003-11-01,Travel agencies and other reservation services,73795.29
+2003,December,2003-12-01,Travel agencies and other reservation services,103801.21
+2004,January,2004-01-01,Travel agencies and other reservation services,77991.57
+2004,February,2004-02-01,Travel agencies and other reservation services,76254.68
+2004,March,2004-03-01,Travel agencies and other reservation services,104510.19
+2004,April,2004-04-01,Travel agencies and other reservation services,103914.99
+2004,May,2004-05-01,Travel agencies and other reservation services,101820.54
+2004,June,2004-06-01,Travel agencies and other reservation services,83066.95
+2004,July,2004-07-01,Travel agencies and other reservation services,63393.84
+2004,August,2004-08-01,Travel agencies and other reservation services,59845.18
+2004,September,2004-09-01,Travel agencies and other reservation services,64021.71
+2004,October,2004-10-01,Travel agencies and other reservation services,85220.02
+2004,November,2004-11-01,Travel agencies and other reservation services,85355.72
+2004,December,2004-12-01,Travel agencies and other reservation services,119136.77
+2005,January,2005-01-01,Travel agencies and other reservation services,94853.75
+2005,February,2005-02-01,Travel agencies and other reservation services,92749.5
+2005,March,2005-03-01,Travel agencies and other reservation services,113029.43
+2005,April,2005-04-01,Travel agencies and other reservation services,118246.88
+2005,May,2005-05-01,Travel agencies and other reservation services,122432.73
+2005,June,2005-06-01,Travel agencies and other reservation services,97635.21
+2005,July,2005-07-01,Travel agencies and other reservation services,72128.8
+2005,August,2005-08-01,Travel agencies and other reservation services,71338.06
+2005,September,2005-09-01,Travel agencies and other reservation services,75039.58
+2005,October,2005-10-01,Travel agencies and other reservation services,100168.65
+2005,November,2005-11-01,Travel agencies and other reservation services,102685.58
+2005,December,2005-12-01,Travel agencies and other reservation services,138948.17
+2006,January,2006-01-01,Travel agencies and other reservation services,105211.63
+2006,February,2006-02-01,Travel agencies and other reservation services,101346.12
+2006,March,2006-03-01,Travel agencies and other reservation services,135137.84
+2006,April,2006-04-01,Travel agencies and other reservation services,132028.05
+2006,May,2006-05-01,Travel agencies and other reservation services,140749.16
+2006,June,2006-06-01,Travel agencies and other reservation services,104787.71
+2006,July,2006-07-01,Travel agencies and other reservation services,85218.39
+2006,August,2006-08-01,Travel agencies and other reservation services,82235.38
+2006,September,2006-09-01,Travel agencies and other reservation services,80887.74
+2006,October,2006-10-01,Travel agencies and other reservation services,109388.66
+2006,November,2006-11-01,Travel agencies and other reservation services,110923.63
+2006,December,2006-12-01,Travel agencies and other reservation services,154491.2
+2007,January,2007-01-01,Travel agencies and other reservation services,115788.1
+2007,February,2007-02-01,Travel agencies and other reservation services,113020.73
+2007,March,2007-03-01,Travel agencies and other reservation services,144894.06
+2007,April,2007-04-01,Travel agencies and other reservation services,155649.21
+2007,May,2007-05-01,Travel agencies and other reservation services,155144.38
+2007,June,2007-06-01,Travel agencies and other reservation services,120557.68
+2007,July,2007-07-01,Travel agencies and other reservation services,90102.61
+2007,August,2007-08-01,Travel agencies and other reservation services,91076.79
+2007,September,2007-09-01,Travel agencies and other reservation services,93184.11
+2007,October,2007-10-01,Travel agencies and other reservation services,119225.9
+2007,November,2007-11-01,Travel agencies and other reservation services,123042.56
+2007,December,2007-12-01,Travel agencies and other reservation services,160302.79
+2008,January,2008-01-01,Travel agencies and other reservation services,127509.06
+2008,February,2008-02-01,Travel agencies and other reservation services,129465.82
+2008,March,2008-03-01,Travel agencies and other reservation services,157680.7
+2008,April,2008-04-01,Travel agencies and other reservation services,168864.16
+2008,May,2008-05-01,Travel agencies and other reservation services,156524.39
+2008,June,2008-06-01,Travel agencies and other reservation services,125245.01
+2008,July,2008-07-01,Travel agencies and other reservation services,99666.62
+2008,August,2008-08-01,Travel agencies and other reservation services,102883.44
+2008,September,2008-09-01,Travel agencies and other reservation services,105577.04
+2008,October,2008-10-01,Travel agencies and other reservation services,133141.52
+2008,November,2008-11-01,Travel agencies and other reservation services,140401.02
+2008,December,2008-12-01,Travel agencies and other reservation services,184736.34
+2009,January,2009-01-01,Travel agencies and other reservation services,137285.32
+2009,February,2009-02-01,Travel agencies and other reservation services,142684.86
+2009,March,2009-03-01,Travel agencies and other reservation services,178424.7
+2009,April,2009-04-01,Travel agencies and other reservation services,167914.83
+2009,May,2009-05-01,Travel agencies and other reservation services,185362.58
+2009,June,2009-06-01,Travel agencies and other reservation services,148920.59
+2009,July,2009-07-01,Travel agencies and other reservation services,105973.18
+2009,August,2009-08-01,Travel agencies and other reservation services,110041.31
+2009,September,2009-09-01,Travel agencies and other reservation services,111122.89
+2009,October,2009-10-01,Travel agencies and other reservation services,148149.57
+2009,November,2009-11-01,Travel agencies and other reservation services,145556.65
+2009,December,2009-12-01,Travel agencies and other reservation services,197097.09
+2010,January,2010-01-01,Travel agencies and other reservation services,149885.01
+2010,February,2010-02-01,Travel agencies and other reservation services,156312.46
+2010,March,2010-03-01,Travel agencies and other reservation services,193098.52
+2010,April,2010-04-01,Travel agencies and other reservation services,189123.6
+2010,May,2010-05-01,Travel agencies and other reservation services,196956.56
+2010,June,2010-06-01,Travel agencies and other reservation services,141754.28
+2010,July,2010-07-01,Travel agencies and other reservation services,121032.17
+2010,August,2010-08-01,Travel agencies and other reservation services,111604.46
+2010,September,2010-09-01,Travel agencies and other reservation services,117211.52
+2010,October,2010-10-01,Travel agencies and other reservation services,153659.17
+2010,November,2010-11-01,Travel agencies and other reservation services,153785.53
+2010,December,2010-12-01,Travel agencies and other reservation services,224919.17
+2011,January,2011-01-01,Travel agencies and other reservation services,159726.97
+2011,February,2011-02-01,Travel agencies and other reservation services,164694.4
+2011,March,2011-03-01,Travel agencies and other reservation services,204711.44
+2011,April,2011-04-01,Travel agencies and other reservation services,209201.69
+2011,May,2011-05-01,Travel agencies and other reservation services,207978.22
+2011,June,2011-06-01,Travel agencies and other reservation services,160572.21
+2011,July,2011-07-01,Travel agencies and other reservation services,129765.89
+2011,August,2011-08-01,Travel agencies and other reservation services,124872.49
+2011,September,2011-09-01,Travel agencies and other reservation services,121546.07
+2011,October,2011-10-01,Travel agencies and other reservation services,168803.77
+2011,November,2011-11-01,Travel agencies and other reservation services,179743.92
+2011,December,2011-12-01,Travel agencies and other reservation services,239507.08
+2012,January,2012-01-01,Travel agencies and other reservation services,172180.04
+2012,February,2012-02-01,Travel agencies and other reservation services,173166.4
+2012,March,2012-03-01,Travel agencies and other reservation services,217877.21
+2012,April,2012-04-01,Travel agencies and other reservation services,235034.41
+2012,May,2012-05-01,Travel agencies and other reservation services,225049.42
+2012,June,2012-06-01,Travel agencies and other reservation services,181309.32
+2012,July,2012-07-01,Travel agencies and other reservation services,139172.65
+2012,August,2012-08-01,Travel agencies and other reservation services,136722.47
+2012,September,2012-09-01,Travel agencies and other reservation services,135439.22
+2012,October,2012-10-01,Travel agencies and other reservation services,181922.04
+2012,November,2012-11-01,Travel agencies and other reservation services,183604.76
+2012,December,2012-12-01,Travel agencies and other reservation services,249471.11
+2013,January,2013-01-01,Travel agencies and other reservation services,190060.17
+2013,February,2013-02-01,Travel agencies and other reservation services,187291.42
+2013,March,2013-03-01,Travel agencies and other reservation services,240165.11
+2013,April,2013-04-01,Travel agencies and other reservation services,235677.92
+2013,May,2013-05-01,Travel agencies and other reservation services,238060.28
+2013,June,2013-06-01,Travel agencies and other reservation services,179550.31
+2013,July,2013-07-01,Travel agencies and other reservation services,147958.54
+2013,August,2013-08-01,Travel agencies and other reservation services,146254.63
+2013,September,2013-09-01,Travel agencies and other reservation services,149856.31
+2013,October,2013-10-01,Travel agencies and other reservation services,178056.91
+2013,November,2013-11-01,Travel agencies and other reservation services,208279.64
+2013,December,2013-12-01,Travel agencies and other reservation services,264836.28
+2014,January,2014-01-01,Travel agencies and other reservation services,204582.61
+2014,February,2014-02-01,Travel agencies and other reservation services,192791.76
+2014,March,2014-03-01,Travel agencies and other reservation services,254595.8
+2014,April,2014-04-01,Travel agencies and other reservation services,243309.88
+2014,May,2014-05-01,Travel agencies and other reservation services,247774.95
+2014,June,2014-06-01,Travel agencies and other reservation services,214656.45
+2014,July,2014-07-01,Travel agencies and other reservation services,152124.77
+2014,August,2014-08-01,Travel agencies and other reservation services,154752.91
+2014,September,2014-09-01,Travel agencies and other reservation services,158532.76
+2014,October,2014-10-01,Travel agencies and other reservation services,210078.18
+2014,November,2014-11-01,Travel agencies and other reservation services,208938.61
+2014,December,2014-12-01,Travel agencies and other reservation services,285239.21
+2015,January,2015-01-01,Travel agencies and other reservation services,225141.52
+2015,February,2015-02-01,Travel agencies and other reservation services,210635.27
+2015,March,2015-03-01,Travel agencies and other reservation services,266598.74
+2015,April,2015-04-01,Travel agencies and other reservation services,274642.1
+2015,May,2015-05-01,Travel agencies and other reservation services,276371.85
+2015,June,2015-06-01,Travel agencies and other reservation services,222656.35
+2015,July,2015-07-01,Travel agencies and other reservation services,165104.23
+2015,August,2015-08-01,Travel agencies and other reservation services,157169.28
+2015,September,2015-09-01,Travel agencies and other reservation services,171511.98
+2015,October,2015-10-01,Travel agencies and other reservation services,211468.51
+2015,November,2015-11-01,Travel agencies and other reservation services,221997.39
+2015,December,2015-12-01,Travel agencies and other reservation services,291598.85
+2016,January,2016-01-01,Travel agencies and other reservation services,221572.84
+2016,February,2016-02-01,Travel agencies and other reservation services,225199.42
+2016,March,2016-03-01,Travel agencies and other reservation services,282699.4
+2016,April,2016-04-01,Travel agencies and other reservation services,284809.96
+2016,May,2016-05-01,Travel agencies and other reservation services,296176.2
+2016,June,2016-06-01,Travel agencies and other reservation services,230088.57
+2016,July,2016-07-01,Travel agencies and other reservation services,169747.48
+2016,August,2016-08-01,Travel agencies and other reservation services,176717.46
+2016,September,2016-09-01,Travel agencies and other reservation services,178655.51
+2016,October,2016-10-01,Travel agencies and other reservation services,222492.68
+2016,November,2016-11-01,Travel agencies and other reservation services,236157.9
+2016,December,2016-12-01,Travel agencies and other reservation services,321166.62
+2017,January,2017-01-01,Travel agencies and other reservation services,231911.1
+2017,February,2017-02-01,Travel agencies and other reservation services,244698.73
+2017,March,2017-03-01,Travel agencies and other reservation services,293672.01
+2017,April,2017-04-01,Travel agencies and other reservation services,297366.06
+2017,May,2017-05-01,Travel agencies and other reservation services,295955.33
+2017,June,2017-06-01,Travel agencies and other reservation services,239111.7
+2017,July,2017-07-01,Travel agencies and other reservation services,174080.11
+2017,August,2017-08-01,Travel agencies and other reservation services,172941.32
+2017,September,2017-09-01,Travel agencies and other reservation services,190182.08
+2017,October,2017-10-01,Travel agencies and other reservation services,236825.65
+2017,November,2017-11-01,Travel agencies and other reservation services,236743.01
+2017,December,2017-12-01,Travel agencies and other reservation services,309382.99
+2018,January,2018-01-01,Travel agencies and other reservation services,241284.46
+2018,February,2018-02-01,Travel agencies and other reservation services,237195.9
+2018,March,2018-03-01,Travel agencies and other reservation services,325270.74
+2018,April,2018-04-01,Travel agencies and other reservation services,320679.17
+2018,May,2018-05-01,Travel agencies and other reservation services,306048.59
+2018,June,2018-06-01,Travel agencies and other reservation services,267960.84
+2018,July,2018-07-01,Travel agencies and other reservation services,194566.61
+2018,August,2018-08-01,Travel agencies and other reservation services,187900.9
+2018,September,2018-09-01,Travel agencies and other reservation services,176215.9
+2018,October,2018-10-01,Travel agencies and other reservation services,272525.71
+2018,November,2018-11-01,Travel agencies and other reservation services,245328.08
+2018,December,2018-12-01,Travel agencies and other reservation services,329823.87
+2019,January,2019-01-01,Travel agencies and other reservation services,265914.7
+2019,February,2019-02-01,Travel agencies and other reservation services,277956.88
+2019,March,2019-03-01,Travel agencies and other reservation services,338496.66
+2019,April,2019-04-01,Travel agencies and other reservation services,331769.26
+2019,May,2019-05-01,Travel agencies and other reservation services,333343.46
+2019,June,2019-06-01,Travel agencies and other reservation services,269733.45
+2019,July,2019-07-01,Travel agencies and other reservation services,202508.04
+2019,August,2019-08-01,Travel agencies and other reservation services,200426.6
+2019,September,2019-09-01,Travel agencies and other reservation services,200123.64
+2019,October,2019-10-01,Travel agencies and other reservation services,266498.63
+2019,November,2019-11-01,Travel agencies and other reservation services,261938.12
+2019,December,2019-12-01,Travel agencies and other reservation services,360092.19
+2020,January,2020-01-01,Travel agencies and other reservation services,269101.4
+2020,February,2020-02-01,Travel agencies and other reservation services,283710.52
+2020,March,2020-03-01,Travel agencies and other reservation services,49487.46
+2020,April,2020-04-01,Travel agencies and other reservation services,49492.8
+2020,May,2020-05-01,Travel agencies and other reservation services,51652.26
+2020,June,2020-06-01,Travel agencies and other reservation services,42972.6
+2020,July,2020-07-01,Travel agencies and other reservation services,31905.41
+2020,August,2020-08-01,Travel agencies and other reservation services,29694.28
+2020,September,2020-09-01,Travel agencies and other reservation services,30346.48
+2020,October,2020-10-01,Travel agencies and other reservation services,43031.14
+2020,November,2020-11-01,Travel agencies and other reservation services,40762.07
+2020,December,2020-12-01,Travel agencies and other reservation services,56519.03
+2021,January,2021-01-01,Travel agencies and other reservation services,17199.21
+2021,February,2021-02-01,Travel agencies and other reservation services,16486.73
+2021,March,2021-03-01,Travel agencies and other reservation services,21367.33
+2021,April,2021-04-01,Travel agencies and other reservation services,20519.56
+2021,May,2021-05-01,Travel agencies and other reservation services,21063.02
+2021,June,2021-06-01,Travel agencies and other reservation services,17385.2
+2021,July,2021-07-01,Travel agencies and other reservation services,12340.64
+2021,August,2021-08-01,Travel agencies and other reservation services,13176.85
+2021,September,2021-09-01,Travel agencies and other reservation services,13042.31
+2021,October,2021-10-01,Travel agencies and other reservation services,17749.39
+2021,November,2021-11-01,Travel agencies and other reservation services,17637.69
+2021,December,2021-12-01,Travel agencies and other reservation services,24704.25
+2022,January,2022-01-01,Travel agencies and other reservation services,132797.02
+2022,February,2022-02-01,Travel agencies and other reservation services,131039.89
+2022,March,2022-03-01,Travel agencies and other reservation services,167110.88
+2022,April,2022-04-01,Travel agencies and other reservation services,169785.44
+2022,May,2022-05-01,Travel agencies and other reservation services,167870.71
+2022,June,2022-06-01,Travel agencies and other reservation services,134713.85
+2022,July,2022-07-01,Travel agencies and other reservation services,99117.7
+2022,August,2022-08-01,Travel agencies and other reservation services,99567.23
+2022,September,2022-09-01,Travel agencies and other reservation services,97636.18
+2022,October,2022-10-01,Travel agencies and other reservation services,143506.64
+2022,November,2022-11-01,Travel agencies and other reservation services,131695.19
+2022,December,2022-12-01,Travel agencies and other reservation services,181435.9
+2023,January,2023-01-01,Travel agencies and other reservation services,344315.77
+2023,February,2023-02-01,Travel agencies and other reservation services,362528.59
+2023,March,2023-03-01,Travel agencies and other reservation services,438832.33
+2023,April,2023-04-01,Travel agencies and other reservation services,460814.44
+2023,May,2023-05-01,Travel agencies and other reservation services,436621.27
+2023,June,2023-06-01,Travel agencies and other reservation services,360643.47
+2023,July,2023-07-01,Travel agencies and other reservation services,262356.24
+2023,August,2023-08-01,Travel agencies and other reservation services,287335.79
+2023,September,2023-09-01,Travel agencies and other reservation services,261176.06
+2023,October,2023-10-01,Travel agencies and other reservation services,365616.98
+2023,November,2023-11-01,Travel agencies and other reservation services,370309.44
+2023,December,2023-12-01,Travel agencies and other reservation services,498251.94
+2024,January,2024-01-01,Travel agencies and other reservation services,395290.44
+2024,February,2024-02-01,Travel agencies and other reservation services,397197.02
+2024,March,2024-03-01,Travel agencies and other reservation services,500657.17
+2024,April,2024-04-01,Travel agencies and other reservation services,499350.58
+2024,May,2024-05-01,Travel agencies and other reservation services,517673.55
+2024,June,2024-06-01,Travel agencies and other reservation services,430524.96
+2024,July,2024-07-01,Travel agencies and other reservation services,298669.86
+2024,August,2024-08-01,Travel agencies and other reservation services,292166.64
+2024,September,2024-09-01,Travel agencies and other reservation services,304815.56
+2024,October,2024-10-01,Travel agencies and other reservation services,440383.69
+2024,November,2024-11-01,Travel agencies and other reservation services,400114.8
+2024,December,2024-12-01,Travel agencies and other reservation services,582488.01
+2025,January,2025-01-01,Travel agencies and other reservation services,433261.55
+2025,February,2025-02-01,Travel agencies and other reservation services,406878.59
+2025,March,2025-03-01,Travel agencies and other reservation services,527604.8
+2025,April,2025-04-01,Travel agencies and other reservation services,545730.75
+2025,May,2025-05-01,Travel agencies and other reservation services,515939.28
+2025,June,2025-06-01,Travel agencies and other reservation services,416192.52
+2025,July,2025-07-01,Travel agencies and other reservation services,309503.12
+2025,August,2025-08-01,Travel agencies and other reservation services,306319.51
+2025,September,2025-09-01,Travel agencies and other reservation services,310702.81
+2025,October,2025-10-01,Travel agencies and other reservation services,408190.66
+2025,November,2025-11-01,Travel agencies and other reservation services,425434.56
+2025,December,2025-12-01,Travel agencies and other reservation services,562145.36
+2000,January,2000-01-01,Entertainment and recreation services,40280.54
+2000,February,2000-02-01,Entertainment and recreation services,39848.91
+2000,March,2000-03-01,Entertainment and recreation services,55040.99
+2000,April,2000-04-01,Entertainment and recreation services,58169.08
+2000,May,2000-05-01,Entertainment and recreation services,55471.09
+2000,June,2000-06-01,Entertainment and recreation services,49549.86
+2000,July,2000-07-01,Entertainment and recreation services,39503.23
+2000,August,2000-08-01,Entertainment and recreation services,38018.39
+2000,September,2000-09-01,Entertainment and recreation services,42847.23
+2000,October,2000-10-01,Entertainment and recreation services,56906.47
+2000,November,2000-11-01,Entertainment and recreation services,56773.28
+2000,December,2000-12-01,Entertainment and recreation services,80594.93
+2001,January,2001-01-01,Entertainment and recreation services,62631.79
+2001,February,2001-02-01,Entertainment and recreation services,63544.56
+2001,March,2001-03-01,Entertainment and recreation services,82817.26
+2001,April,2001-04-01,Entertainment and recreation services,81436.81
+2001,May,2001-05-01,Entertainment and recreation services,86436.95
+2001,June,2001-06-01,Entertainment and recreation services,67605.75
+2001,July,2001-07-01,Entertainment and recreation services,54118.81
+2001,August,2001-08-01,Entertainment and recreation services,54140.93
+2001,September,2001-09-01,Entertainment and recreation services,55742.24
+2001,October,2001-10-01,Entertainment and recreation services,80685.04
+2001,November,2001-11-01,Entertainment and recreation services,82206.05
+2001,December,2001-12-01,Entertainment and recreation services,111898.15
+2002,January,2002-01-01,Entertainment and recreation services,80473.59
+2002,February,2002-02-01,Entertainment and recreation services,84193.16
+2002,March,2002-03-01,Entertainment and recreation services,112448.63
+2002,April,2002-04-01,Entertainment and recreation services,111220.85
+2002,May,2002-05-01,Entertainment and recreation services,120862.53
+2002,June,2002-06-01,Entertainment and recreation services,93287.92
+2002,July,2002-07-01,Entertainment and recreation services,70906.18
+2002,August,2002-08-01,Entertainment and recreation services,71183.7
+2002,September,2002-09-01,Entertainment and recreation services,73493.26
+2002,October,2002-10-01,Entertainment and recreation services,98945.33
+2002,November,2002-11-01,Entertainment and recreation services,103349.82
+2002,December,2002-12-01,Entertainment and recreation services,143040.88
+2003,January,2003-01-01,Entertainment and recreation services,102328.85
+2003,February,2003-02-01,Entertainment and recreation services,102342.72
+2003,March,2003-03-01,Entertainment and recreation services,128035.83
+2003,April,2003-04-01,Entertainment and recreation services,139849.27
+2003,May,2003-05-01,Entertainment and recreation services,135365.86
+2003,June,2003-06-01,Entertainment and recreation services,106450.03
+2003,July,2003-07-01,Entertainment and recreation services,87710.69
+2003,August,2003-08-01,Entertainment and recreation services,94635.26
+2003,September,2003-09-01,Entertainment and recreation services,89383.72
+2003,October,2003-10-01,Entertainment and recreation services,124043.72
+2003,November,2003-11-01,Entertainment and recreation services,123101.46
+2003,December,2003-12-01,Entertainment and recreation services,167710.97
+2004,January,2004-01-01,Entertainment and recreation services,129885.14
+2004,February,2004-02-01,Entertainment and recreation services,127083.6
+2004,March,2004-03-01,Entertainment and recreation services,163803.54
+2004,April,2004-04-01,Entertainment and recreation services,166339.99
+2004,May,2004-05-01,Entertainment and recreation services,163652.87
+2004,June,2004-06-01,Entertainment and recreation services,139429.68
+2004,July,2004-07-01,Entertainment and recreation services,102359.9
+2004,August,2004-08-01,Entertainment and recreation services,101886.41
+2004,September,2004-09-01,Entertainment and recreation services,107299.66
+2004,October,2004-10-01,Entertainment and recreation services,138756.35
+2004,November,2004-11-01,Entertainment and recreation services,144522.08
+2004,December,2004-12-01,Entertainment and recreation services,197316.01
+2005,January,2005-01-01,Entertainment and recreation services,152821.38
+2005,February,2005-02-01,Entertainment and recreation services,151933.29
+2005,March,2005-03-01,Entertainment and recreation services,189357.72
+2005,April,2005-04-01,Entertainment and recreation services,196454.2
+2005,May,2005-05-01,Entertainment and recreation services,202091.01
+2005,June,2005-06-01,Entertainment and recreation services,159627.29
+2005,July,2005-07-01,Entertainment and recreation services,119136.99
+2005,August,2005-08-01,Entertainment and recreation services,115709.68
+2005,September,2005-09-01,Entertainment and recreation services,117908.07
+2005,October,2005-10-01,Entertainment and recreation services,162696.46
+2005,November,2005-11-01,Entertainment and recreation services,162964.63
+2005,December,2005-12-01,Entertainment and recreation services,225259.36
+2006,January,2006-01-01,Entertainment and recreation services,169888.23
+2006,February,2006-02-01,Entertainment and recreation services,174123.68
+2006,March,2006-03-01,Entertainment and recreation services,216042.11
+2006,April,2006-04-01,Entertainment and recreation services,221942.67
+2006,May,2006-05-01,Entertainment and recreation services,221427.47
+2006,June,2006-06-01,Entertainment and recreation services,168015.45
+2006,July,2006-07-01,Entertainment and recreation services,131487.24
+2006,August,2006-08-01,Entertainment and recreation services,136059.31
+2006,September,2006-09-01,Entertainment and recreation services,132991.86
+2006,October,2006-10-01,Entertainment and recreation services,189144.0
+2006,November,2006-11-01,Entertainment and recreation services,196215.07
+2006,December,2006-12-01,Entertainment and recreation services,265038.76
+2007,January,2007-01-01,Entertainment and recreation services,189975.69
+2007,February,2007-02-01,Entertainment and recreation services,201631.3
+2007,March,2007-03-01,Entertainment and recreation services,244586.02
+2007,April,2007-04-01,Entertainment and recreation services,243264.83
+2007,May,2007-05-01,Entertainment and recreation services,243436.28
+2007,June,2007-06-01,Entertainment and recreation services,198383.37
+2007,July,2007-07-01,Entertainment and recreation services,149735.74
+2007,August,2007-08-01,Entertainment and recreation services,153631.44
+2007,September,2007-09-01,Entertainment and recreation services,154942.82
+2007,October,2007-10-01,Entertainment and recreation services,207418.95
+2007,November,2007-11-01,Entertainment and recreation services,211942.22
+2007,December,2007-12-01,Entertainment and recreation services,295024.67
+2008,January,2008-01-01,Entertainment and recreation services,218861.95
+2008,February,2008-02-01,Entertainment and recreation services,205040.23
+2008,March,2008-03-01,Entertainment and recreation services,249774.93
+2008,April,2008-04-01,Entertainment and recreation services,280395.07
+2008,May,2008-05-01,Entertainment and recreation services,263723.25
+2008,June,2008-06-01,Entertainment and recreation services,220304.41
+2008,July,2008-07-01,Entertainment and recreation services,161813.16
+2008,August,2008-08-01,Entertainment and recreation services,159911.26
+2008,September,2008-09-01,Entertainment and recreation services,173167.96
+2008,October,2008-10-01,Entertainment and recreation services,234215.4
+2008,November,2008-11-01,Entertainment and recreation services,226808.24
+2008,December,2008-12-01,Entertainment and recreation services,289601.6
+2009,January,2009-01-01,Entertainment and recreation services,230558.81
+2009,February,2009-02-01,Entertainment and recreation services,238976.32
+2009,March,2009-03-01,Entertainment and recreation services,284300.71
+2009,April,2009-04-01,Entertainment and recreation services,301398.86
+2009,May,2009-05-01,Entertainment and recreation services,301861.29
+2009,June,2009-06-01,Entertainment and recreation services,247629.99
+2009,July,2009-07-01,Entertainment and recreation services,184559.72
+2009,August,2009-08-01,Entertainment and recreation services,179842.17
+2009,September,2009-09-01,Entertainment and recreation services,193298.41
+2009,October,2009-10-01,Entertainment and recreation services,249408.17
+2009,November,2009-11-01,Entertainment and recreation services,252193.25
+2009,December,2009-12-01,Entertainment and recreation services,333561.91
+2010,January,2010-01-01,Entertainment and recreation services,252595.59
+2010,February,2010-02-01,Entertainment and recreation services,250956.94
+2010,March,2010-03-01,Entertainment and recreation services,322816.37
+2010,April,2010-04-01,Entertainment and recreation services,343529.02
+2010,May,2010-05-01,Entertainment and recreation services,315459.34
+2010,June,2010-06-01,Entertainment and recreation services,252172.19
+2010,July,2010-07-01,Entertainment and recreation services,208931.44
+2010,August,2010-08-01,Entertainment and recreation services,200184.95
+2010,September,2010-09-01,Entertainment and recreation services,198729.36
+2010,October,2010-10-01,Entertainment and recreation services,280691.86
+2010,November,2010-11-01,Entertainment and recreation services,269021.84
+2010,December,2010-12-01,Entertainment and recreation services,392726.35
+2011,January,2011-01-01,Entertainment and recreation services,283245.77
+2011,February,2011-02-01,Entertainment and recreation services,275310.33
+2011,March,2011-03-01,Entertainment and recreation services,374248.82
+2011,April,2011-04-01,Entertainment and recreation services,347321.85
+2011,May,2011-05-01,Entertainment and recreation services,363925.58
+2011,June,2011-06-01,Entertainment and recreation services,289173.32
+2011,July,2011-07-01,Entertainment and recreation services,224747.0
+2011,August,2011-08-01,Entertainment and recreation services,227845.89
+2011,September,2011-09-01,Entertainment and recreation services,219210.27
+2011,October,2011-10-01,Entertainment and recreation services,287159.37
+2011,November,2011-11-01,Entertainment and recreation services,299679.03
+2011,December,2011-12-01,Entertainment and recreation services,393327.12
+2012,January,2012-01-01,Entertainment and recreation services,317272.16
+2012,February,2012-02-01,Entertainment and recreation services,302232.91
+2012,March,2012-03-01,Entertainment and recreation services,374351.77
+2012,April,2012-04-01,Entertainment and recreation services,382859.51
+2012,May,2012-05-01,Entertainment and recreation services,367521.52
+2012,June,2012-06-01,Entertainment and recreation services,299216.46
+2012,July,2012-07-01,Entertainment and recreation services,240872.89
+2012,August,2012-08-01,Entertainment and recreation services,229241.56
+2012,September,2012-09-01,Entertainment and recreation services,227813.0
+2012,October,2012-10-01,Entertainment and recreation services,320477.81
+2012,November,2012-11-01,Entertainment and recreation services,328483.16
+2012,December,2012-12-01,Entertainment and recreation services,439938.52
+2013,January,2013-01-01,Entertainment and recreation services,330385.96
+2013,February,2013-02-01,Entertainment and recreation services,315275.74
+2013,March,2013-03-01,Entertainment and recreation services,388203.67
+2013,April,2013-04-01,Entertainment and recreation services,426115.06
+2013,May,2013-05-01,Entertainment and recreation services,406031.04
+2013,June,2013-06-01,Entertainment and recreation services,327318.26
+2013,July,2013-07-01,Entertainment and recreation services,258609.66
+2013,August,2013-08-01,Entertainment and recreation services,254222.56
+2013,September,2013-09-01,Entertainment and recreation services,254838.31
+2013,October,2013-10-01,Entertainment and recreation services,358888.17
+2013,November,2013-11-01,Entertainment and recreation services,332259.28
+2013,December,2013-12-01,Entertainment and recreation services,472608.91
+2014,January,2014-01-01,Entertainment and recreation services,342985.64
+2014,February,2014-02-01,Entertainment and recreation services,346973.48
+2014,March,2014-03-01,Entertainment and recreation services,452331.88
+2014,April,2014-04-01,Entertainment and recreation services,441373.45
+2014,May,2014-05-01,Entertainment and recreation services,444057.06
+2014,June,2014-06-01,Entertainment and recreation services,362706.37
+2014,July,2014-07-01,Entertainment and recreation services,261999.72
+2014,August,2014-08-01,Entertainment and recreation services,259546.81
+2014,September,2014-09-01,Entertainment and recreation services,259212.27
+2014,October,2014-10-01,Entertainment and recreation services,337445.94
+2014,November,2014-11-01,Entertainment and recreation services,382631.71
+2014,December,2014-12-01,Entertainment and recreation services,472786.93
+2015,January,2015-01-01,Entertainment and recreation services,361583.91
+2015,February,2015-02-01,Entertainment and recreation services,362762.25
+2015,March,2015-03-01,Entertainment and recreation services,463737.6
+2015,April,2015-04-01,Entertainment and recreation services,473050.0
+2015,May,2015-05-01,Entertainment and recreation services,475977.79
+2015,June,2015-06-01,Entertainment and recreation services,366475.36
+2015,July,2015-07-01,Entertainment and recreation services,279690.66
+2015,August,2015-08-01,Entertainment and recreation services,284844.44
+2015,September,2015-09-01,Entertainment and recreation services,281682.64
+2015,October,2015-10-01,Entertainment and recreation services,398533.38
+2015,November,2015-11-01,Entertainment and recreation services,387626.57
+2015,December,2015-12-01,Entertainment and recreation services,529552.87
+2016,January,2016-01-01,Entertainment and recreation services,393268.21
+2016,February,2016-02-01,Entertainment and recreation services,401038.11
+2016,March,2016-03-01,Entertainment and recreation services,489142.01
+2016,April,2016-04-01,Entertainment and recreation services,469735.2
+2016,May,2016-05-01,Entertainment and recreation services,496887.4
+2016,June,2016-06-01,Entertainment and recreation services,386889.24
+2016,July,2016-07-01,Entertainment and recreation services,292585.27
+2016,August,2016-08-01,Entertainment and recreation services,303903.53
+2016,September,2016-09-01,Entertainment and recreation services,311144.55
+2016,October,2016-10-01,Entertainment and recreation services,402056.41
+2016,November,2016-11-01,Entertainment and recreation services,407339.35
+2016,December,2016-12-01,Entertainment and recreation services,575238.16
+2017,January,2017-01-01,Entertainment and recreation services,410141.04
+2017,February,2017-02-01,Entertainment and recreation services,440922.65
+2017,March,2017-03-01,Entertainment and recreation services,522211.68
+2017,April,2017-04-01,Entertainment and recreation services,488506.6
+2017,May,2017-05-01,Entertainment and recreation services,529706.93
+2017,June,2017-06-01,Entertainment and recreation services,420959.14
+2017,July,2017-07-01,Entertainment and recreation services,325630.12
+2017,August,2017-08-01,Entertainment and recreation services,321208.53
+2017,September,2017-09-01,Entertainment and recreation services,314886.61
+2017,October,2017-10-01,Entertainment and recreation services,407848.96
+2017,November,2017-11-01,Entertainment and recreation services,422533.7
+2017,December,2017-12-01,Entertainment and recreation services,561741.52
+2018,January,2018-01-01,Entertainment and recreation services,421332.15
+2018,February,2018-02-01,Entertainment and recreation services,438203.26
+2018,March,2018-03-01,Entertainment and recreation services,567577.5
+2018,April,2018-04-01,Entertainment and recreation services,549176.24
+2018,May,2018-05-01,Entertainment and recreation services,525447.31
+2018,June,2018-06-01,Entertainment and recreation services,443639.41
+2018,July,2018-07-01,Entertainment and recreation services,341535.88
+2018,August,2018-08-01,Entertainment and recreation services,324993.94
+2018,September,2018-09-01,Entertainment and recreation services,331063.58
+2018,October,2018-10-01,Entertainment and recreation services,445196.09
+2018,November,2018-11-01,Entertainment and recreation services,436279.22
+2018,December,2018-12-01,Entertainment and recreation services,617388.15
+2019,January,2019-01-01,Entertainment and recreation services,448765.75
+2019,February,2019-02-01,Entertainment and recreation services,457891.38
+2019,March,2019-03-01,Entertainment and recreation services,552390.45
+2019,April,2019-04-01,Entertainment and recreation services,562272.74
+2019,May,2019-05-01,Entertainment and recreation services,584396.06
+2019,June,2019-06-01,Entertainment and recreation services,454261.61
+2019,July,2019-07-01,Entertainment and recreation services,363820.7
+2019,August,2019-08-01,Entertainment and recreation services,343086.79
+2019,September,2019-09-01,Entertainment and recreation services,350949.75
+2019,October,2019-10-01,Entertainment and recreation services,479654.41
+2019,November,2019-11-01,Entertainment and recreation services,448469.12
+2019,December,2019-12-01,Entertainment and recreation services,601238.74
+2020,January,2020-01-01,Entertainment and recreation services,472916.54
+2020,February,2020-02-01,Entertainment and recreation services,516333.69
+2020,March,2020-03-01,Entertainment and recreation services,87698.64
+2020,April,2020-04-01,Entertainment and recreation services,96382.22
+2020,May,2020-05-01,Entertainment and recreation services,88329.07
+2020,June,2020-06-01,Entertainment and recreation services,72549.46
+2020,July,2020-07-01,Entertainment and recreation services,56827.79
+2020,August,2020-08-01,Entertainment and recreation services,57798.52
+2020,September,2020-09-01,Entertainment and recreation services,58104.16
+2020,October,2020-10-01,Entertainment and recreation services,75884.66
+2020,November,2020-11-01,Entertainment and recreation services,75758.06
+2020,December,2020-12-01,Entertainment and recreation services,101359.78
+2021,January,2021-01-01,Entertainment and recreation services,30307.56
+2021,February,2021-02-01,Entertainment and recreation services,29232.5
+2021,March,2021-03-01,Entertainment and recreation services,36374.68
+2021,April,2021-04-01,Entertainment and recreation services,37421.21
+2021,May,2021-05-01,Entertainment and recreation services,37368.24
+2021,June,2021-06-01,Entertainment and recreation services,29745.97
+2021,July,2021-07-01,Entertainment and recreation services,23172.2
+2021,August,2021-08-01,Entertainment and recreation services,23431.83
+2021,September,2021-09-01,Entertainment and recreation services,22920.63
+2021,October,2021-10-01,Entertainment and recreation services,31943.84
+2021,November,2021-11-01,Entertainment and recreation services,29644.64
+2021,December,2021-12-01,Entertainment and recreation services,41343.8
+2022,January,2022-01-01,Entertainment and recreation services,226854.36
+2022,February,2022-02-01,Entertainment and recreation services,219622.51
+2022,March,2022-03-01,Entertainment and recreation services,291101.15
+2022,April,2022-04-01,Entertainment and recreation services,291767.93
+2022,May,2022-05-01,Entertainment and recreation services,307191.82
+2022,June,2022-06-01,Entertainment and recreation services,240354.07
+2022,July,2022-07-01,Entertainment and recreation services,172070.44
+2022,August,2022-08-01,Entertainment and recreation services,188040.72
+2022,September,2022-09-01,Entertainment and recreation services,185287.43
+2022,October,2022-10-01,Entertainment and recreation services,243305.91
+2022,November,2022-11-01,Entertainment and recreation services,238309.72
+2022,December,2022-12-01,Entertainment and recreation services,315657.61
+2023,January,2023-01-01,Entertainment and recreation services,610426.88
+2023,February,2023-02-01,Entertainment and recreation services,639620.8
+2023,March,2023-03-01,Entertainment and recreation services,820744.81
+2023,April,2023-04-01,Entertainment and recreation services,815497.2
+2023,May,2023-05-01,Entertainment and recreation services,770531.59
+2023,June,2023-06-01,Entertainment and recreation services,606587.49
+2023,July,2023-07-01,Entertainment and recreation services,474301.24
+2023,August,2023-08-01,Entertainment and recreation services,448717.85
+2023,September,2023-09-01,Entertainment and recreation services,480019.11
+2023,October,2023-10-01,Entertainment and recreation services,633133.96
+2023,November,2023-11-01,Entertainment and recreation services,629099.78
+2023,December,2023-12-01,Entertainment and recreation services,822780.98
+2024,January,2024-01-01,Entertainment and recreation services,708754.79
+2024,February,2024-02-01,Entertainment and recreation services,689059.29
+2024,March,2024-03-01,Entertainment and recreation services,847305.0
+2024,April,2024-04-01,Entertainment and recreation services,805029.0
+2024,May,2024-05-01,Entertainment and recreation services,883020.51
+2024,June,2024-06-01,Entertainment and recreation services,746959.08
+2024,July,2024-07-01,Entertainment and recreation services,560219.68
+2024,August,2024-08-01,Entertainment and recreation services,527971.82
+2024,September,2024-09-01,Entertainment and recreation services,527298.36
+2024,October,2024-10-01,Entertainment and recreation services,728350.91
+2024,November,2024-11-01,Entertainment and recreation services,698919.9
+2024,December,2024-12-01,Entertainment and recreation services,984546.36
+2025,January,2025-01-01,Entertainment and recreation services,741662.25
+2025,February,2025-02-01,Entertainment and recreation services,754018.62
+2025,March,2025-03-01,Entertainment and recreation services,909135.16
+2025,April,2025-04-01,Entertainment and recreation services,909098.56
+2025,May,2025-05-01,Entertainment and recreation services,893333.53
+2025,June,2025-06-01,Entertainment and recreation services,717986.28
+2025,July,2025-07-01,Entertainment and recreation services,550111.77
+2025,August,2025-08-01,Entertainment and recreation services,561685.33
+2025,September,2025-09-01,Entertainment and recreation services,572522.85
+2025,October,2025-10-01,Entertainment and recreation services,727292.93
+2025,November,2025-11-01,Entertainment and recreation services,780973.54
+2025,December,2025-12-01,Entertainment and recreation services,1003929.87
+2000,January,2000-01-01,Shopping,69955.13
+2000,February,2000-02-01,Shopping,70874.81
+2000,March,2000-03-01,Shopping,86931.82
+2000,April,2000-04-01,Shopping,99444.26
+2000,May,2000-05-01,Shopping,102210.53
+2000,June,2000-06-01,Shopping,81803.71
+2000,July,2000-07-01,Shopping,63878.12
+2000,August,2000-08-01,Shopping,66640.76
+2000,September,2000-09-01,Shopping,64335.84
+2000,October,2000-10-01,Shopping,91031.88
+2000,November,2000-11-01,Shopping,97263.65
+2000,December,2000-12-01,Shopping,126672.12
+2001,January,2001-01-01,Shopping,100880.67
+2001,February,2001-02-01,Shopping,98328.51
+2001,March,2001-03-01,Shopping,133086.57
+2001,April,2001-04-01,Shopping,134231.32
+2001,May,2001-05-01,Shopping,130837.58
+2001,June,2001-06-01,Shopping,116431.0
+2001,July,2001-07-01,Shopping,84349.24
+2001,August,2001-08-01,Shopping,85982.9
+2001,September,2001-09-01,Shopping,90541.54
+2001,October,2001-10-01,Shopping,126721.24
+2001,November,2001-11-01,Shopping,121190.67
+2001,December,2001-12-01,Shopping,172443.5
+2002,January,2002-01-01,Shopping,131672.38
+2002,February,2002-02-01,Shopping,135255.09
+2002,March,2002-03-01,Shopping,169643.24
+2002,April,2002-04-01,Shopping,169982.51
+2002,May,2002-05-01,Shopping,170655.15
+2002,June,2002-06-01,Shopping,142868.27
+2002,July,2002-07-01,Shopping,105252.15
+2002,August,2002-08-01,Shopping,100929.77
+2002,September,2002-09-01,Shopping,113973.39
+2002,October,2002-10-01,Shopping,156635.5
+2002,November,2002-11-01,Shopping,144012.36
+2002,December,2002-12-01,Shopping,206184.18
+2003,January,2003-01-01,Shopping,162971.94
+2003,February,2003-02-01,Shopping,172530.29
+2003,March,2003-03-01,Shopping,206378.66
+2003,April,2003-04-01,Shopping,204802.23
+2003,May,2003-05-01,Shopping,211334.04
+2003,June,2003-06-01,Shopping,179614.99
+2003,July,2003-07-01,Shopping,128706.52
+2003,August,2003-08-01,Shopping,129933.23
+2003,September,2003-09-01,Shopping,133044.89
+2003,October,2003-10-01,Shopping,177280.53
+2003,November,2003-11-01,Shopping,185680.82
+2003,December,2003-12-01,Shopping,265462.4
+2004,January,2004-01-01,Shopping,191841.55
+2004,February,2004-02-01,Shopping,191042.66
+2004,March,2004-03-01,Shopping,241616.13
+2004,April,2004-04-01,Shopping,235297.62
+2004,May,2004-05-01,Shopping,256623.32
+2004,June,2004-06-01,Shopping,202027.14
+2004,July,2004-07-01,Shopping,152917.54
+2004,August,2004-08-01,Shopping,170532.82
+2004,September,2004-09-01,Shopping,158911.61
+2004,October,2004-10-01,Shopping,207707.33
+2004,November,2004-11-01,Shopping,212249.99
+2004,December,2004-12-01,Shopping,303741.37
+2005,January,2005-01-01,Shopping,220747.58
+2005,February,2005-02-01,Shopping,212899.49
+2005,March,2005-03-01,Shopping,289005.99
+2005,April,2005-04-01,Shopping,278674.9
+2005,May,2005-05-01,Shopping,303657.19
+2005,June,2005-06-01,Shopping,240033.34
+2005,July,2005-07-01,Shopping,173884.79
+2005,August,2005-08-01,Shopping,184970.43
+2005,September,2005-09-01,Shopping,180366.42
+2005,October,2005-10-01,Shopping,248703.93
+2005,November,2005-11-01,Shopping,248562.79
+2005,December,2005-12-01,Shopping,325641.33
+2006,January,2006-01-01,Shopping,245173.38
+2006,February,2006-02-01,Shopping,260301.95
+2006,March,2006-03-01,Shopping,315548.71
+2006,April,2006-04-01,Shopping,317977.27
+2006,May,2006-05-01,Shopping,315687.55
+2006,June,2006-06-01,Shopping,265835.84
+2006,July,2006-07-01,Shopping,211047.8
+2006,August,2006-08-01,Shopping,194199.79
+2006,September,2006-09-01,Shopping,202647.13
+2006,October,2006-10-01,Shopping,284044.9
+2006,November,2006-11-01,Shopping,274342.96
+2006,December,2006-12-01,Shopping,379709.09
+2007,January,2007-01-01,Shopping,271075.89
+2007,February,2007-02-01,Shopping,286129.9
+2007,March,2007-03-01,Shopping,354249.9
+2007,April,2007-04-01,Shopping,370002.4
+2007,May,2007-05-01,Shopping,375412.82
+2007,June,2007-06-01,Shopping,315223.42
+2007,July,2007-07-01,Shopping,225097.32
+2007,August,2007-08-01,Shopping,225305.8
+2007,September,2007-09-01,Shopping,226312.09
+2007,October,2007-10-01,Shopping,299295.02
+2007,November,2007-11-01,Shopping,308097.13
+2007,December,2007-12-01,Shopping,411446.14
+2008,January,2008-01-01,Shopping,311566.69
+2008,February,2008-02-01,Shopping,324852.48
+2008,March,2008-03-01,Shopping,381860.22
+2008,April,2008-04-01,Shopping,410446.68
+2008,May,2008-05-01,Shopping,415805.38
+2008,June,2008-06-01,Shopping,321357.69
+2008,July,2008-07-01,Shopping,228233.94
+2008,August,2008-08-01,Shopping,241146.11
+2008,September,2008-09-01,Shopping,257130.18
+2008,October,2008-10-01,Shopping,332271.89
+2008,November,2008-11-01,Shopping,324957.01
+2008,December,2008-12-01,Shopping,448725.36
+2009,January,2009-01-01,Shopping,348574.32
+2009,February,2009-02-01,Shopping,348117.69
+2009,March,2009-03-01,Shopping,428158.82
+2009,April,2009-04-01,Shopping,429594.82
+2009,May,2009-05-01,Shopping,432358.17
+2009,June,2009-06-01,Shopping,342745.51
+2009,July,2009-07-01,Shopping,279152.81
+2009,August,2009-08-01,Shopping,265532.33
+2009,September,2009-09-01,Shopping,279858.98
+2009,October,2009-10-01,Shopping,379044.31
+2009,November,2009-11-01,Shopping,375931.5
+2009,December,2009-12-01,Shopping,489700.87
+2010,January,2010-01-01,Shopping,374481.4
+2010,February,2010-02-01,Shopping,372229.61
+2010,March,2010-03-01,Shopping,456041.69
+2010,April,2010-04-01,Shopping,476466.71
+2010,May,2010-05-01,Shopping,458198.68
+2010,June,2010-06-01,Shopping,396128.62
+2010,July,2010-07-01,Shopping,284725.25
+2010,August,2010-08-01,Shopping,292378.86
+2010,September,2010-09-01,Shopping,294985.85
+2010,October,2010-10-01,Shopping,389451.39
+2010,November,2010-11-01,Shopping,401952.32
+2010,December,2010-12-01,Shopping,528979.64
+2011,January,2011-01-01,Shopping,410455.57
+2011,February,2011-02-01,Shopping,386247.3
+2011,March,2011-03-01,Shopping,508169.39
+2011,April,2011-04-01,Shopping,539004.26
+2011,May,2011-05-01,Shopping,497119.91
+2011,June,2011-06-01,Shopping,404112.91
+2011,July,2011-07-01,Shopping,316048.61
+2011,August,2011-08-01,Shopping,314811.95
+2011,September,2011-09-01,Shopping,318313.45
+2011,October,2011-10-01,Shopping,428700.45
+2011,November,2011-11-01,Shopping,433092.7
+2011,December,2011-12-01,Shopping,596338.07
+2012,January,2012-01-01,Shopping,435286.66
+2012,February,2012-02-01,Shopping,429369.68
+2012,March,2012-03-01,Shopping,554721.36
+2012,April,2012-04-01,Shopping,578044.94
+2012,May,2012-05-01,Shopping,547811.54
+2012,June,2012-06-01,Shopping,429563.12
+2012,July,2012-07-01,Shopping,344834.65
+2012,August,2012-08-01,Shopping,334412.91
+2012,September,2012-09-01,Shopping,315501.72
+2012,October,2012-10-01,Shopping,464003.75
+2012,November,2012-11-01,Shopping,447692.77
+2012,December,2012-12-01,Shopping,615947.53
+2013,January,2013-01-01,Shopping,464581.33
+2013,February,2013-02-01,Shopping,465143.18
+2013,March,2013-03-01,Shopping,593621.07
+2013,April,2013-04-01,Shopping,576740.38
+2013,May,2013-05-01,Shopping,596543.49
+2013,June,2013-06-01,Shopping,468820.93
+2013,July,2013-07-01,Shopping,364146.04
+2013,August,2013-08-01,Shopping,364736.35
+2013,September,2013-09-01,Shopping,349897.26
+2013,October,2013-10-01,Shopping,498219.59
+2013,November,2013-11-01,Shopping,477201.73
+2013,December,2013-12-01,Shopping,674079.09
+2014,January,2014-01-01,Shopping,495399.12
+2014,February,2014-02-01,Shopping,519659.16
+2014,March,2014-03-01,Shopping,614601.91
+2014,April,2014-04-01,Shopping,615358.06
+2014,May,2014-05-01,Shopping,624635.88
+2014,June,2014-06-01,Shopping,497929.56
+2014,July,2014-07-01,Shopping,387839.34
+2014,August,2014-08-01,Shopping,362168.75
+2014,September,2014-09-01,Shopping,370408.99
+2014,October,2014-10-01,Shopping,496082.53
+2014,November,2014-11-01,Shopping,529682.25
+2014,December,2014-12-01,Shopping,734477.32
+2015,January,2015-01-01,Shopping,518370.59
+2015,February,2015-02-01,Shopping,519853.72
+2015,March,2015-03-01,Shopping,657629.15
+2015,April,2015-04-01,Shopping,682358.41
+2015,May,2015-05-01,Shopping,644068.86
+2015,June,2015-06-01,Shopping,536307.94
+2015,July,2015-07-01,Shopping,412988.94
+2015,August,2015-08-01,Shopping,409185.11
+2015,September,2015-09-01,Shopping,407303.42
+2015,October,2015-10-01,Shopping,558792.03
+2015,November,2015-11-01,Shopping,500802.15
+2015,December,2015-12-01,Shopping,754156.04
+2016,January,2016-01-01,Shopping,539207.75
+2016,February,2016-02-01,Shopping,522157.26
+2016,March,2016-03-01,Shopping,704389.4
+2016,April,2016-04-01,Shopping,725593.05
+2016,May,2016-05-01,Shopping,697113.58
+2016,June,2016-06-01,Shopping,578579.76
+2016,July,2016-07-01,Shopping,444246.09
+2016,August,2016-08-01,Shopping,442414.81
+2016,September,2016-09-01,Shopping,448532.55
+2016,October,2016-10-01,Shopping,585246.04
+2016,November,2016-11-01,Shopping,576301.23
+2016,December,2016-12-01,Shopping,742157.02
+2017,January,2017-01-01,Shopping,575718.51
+2017,February,2017-02-01,Shopping,567764.27
+2017,March,2017-03-01,Shopping,778875.06
+2017,April,2017-04-01,Shopping,730500.02
+2017,May,2017-05-01,Shopping,740225.91
+2017,June,2017-06-01,Shopping,602302.65
+2017,July,2017-07-01,Shopping,446833.73
+2017,August,2017-08-01,Shopping,470912.84
+2017,September,2017-09-01,Shopping,441594.23
+2017,October,2017-10-01,Shopping,606017.53
+2017,November,2017-11-01,Shopping,591524.16
+2017,December,2017-12-01,Shopping,787647.5
+2018,January,2018-01-01,Shopping,598804.63
+2018,February,2018-02-01,Shopping,611819.45
+2018,March,2018-03-01,Shopping,758849.22
+2018,April,2018-04-01,Shopping,755841.13
+2018,May,2018-05-01,Shopping,742303.12
+2018,June,2018-06-01,Shopping,620948.0
+2018,July,2018-07-01,Shopping,447589.87
+2018,August,2018-08-01,Shopping,481356.04
+2018,September,2018-09-01,Shopping,473668.58
+2018,October,2018-10-01,Shopping,604842.96
+2018,November,2018-11-01,Shopping,629109.57
+2018,December,2018-12-01,Shopping,841205.26
+2019,January,2019-01-01,Shopping,646128.15
+2019,February,2019-02-01,Shopping,668337.18
+2019,March,2019-03-01,Shopping,760894.27
+2019,April,2019-04-01,Shopping,812167.98
+2019,May,2019-05-01,Shopping,808596.76
+2019,June,2019-06-01,Shopping,665641.48
+2019,July,2019-07-01,Shopping,494391.99
+2019,August,2019-08-01,Shopping,482000.55
+2019,September,2019-09-01,Shopping,490262.05
+2019,October,2019-10-01,Shopping,646678.99
+2019,November,2019-11-01,Shopping,686466.34
+2019,December,2019-12-01,Shopping,901701.13
+2020,January,2020-01-01,Shopping,743624.63
+2020,February,2020-02-01,Shopping,704839.98
+2020,March,2020-03-01,Shopping,123872.77
+2020,April,2020-04-01,Shopping,121262.58
+2020,May,2020-05-01,Shopping,120602.99
+2020,June,2020-06-01,Shopping,97509.72
+2020,July,2020-07-01,Shopping,77680.06
+2020,August,2020-08-01,Shopping,78524.15
+2020,September,2020-09-01,Shopping,73942.8
+2020,October,2020-10-01,Shopping,106664.16
+2020,November,2020-11-01,Shopping,102739.23
+2020,December,2020-12-01,Shopping,141865.76
+2021,January,2021-01-01,Shopping,44031.4
+2021,February,2021-02-01,Shopping,43284.05
+2021,March,2021-03-01,Shopping,52449.04
+2021,April,2021-04-01,Shopping,51643.83
+2021,May,2021-05-01,Shopping,49812.47
+2021,June,2021-06-01,Shopping,41827.69
+2021,July,2021-07-01,Shopping,31971.21
+2021,August,2021-08-01,Shopping,31331.29
+2021,September,2021-09-01,Shopping,32272.42
+2021,October,2021-10-01,Shopping,43449.95
+2021,November,2021-11-01,Shopping,43206.56
+2021,December,2021-12-01,Shopping,57778.41
+2022,January,2022-01-01,Shopping,330162.09
+2022,February,2022-02-01,Shopping,333995.24
+2022,March,2022-03-01,Shopping,399913.14
+2022,April,2022-04-01,Shopping,432403.24
+2022,May,2022-05-01,Shopping,415018.88
+2022,June,2022-06-01,Shopping,334313.94
+2022,July,2022-07-01,Shopping,256779.65
+2022,August,2022-08-01,Shopping,254046.33
+2022,September,2022-09-01,Shopping,260362.88
+2022,October,2022-10-01,Shopping,341541.82
+2022,November,2022-11-01,Shopping,333507.73
+2022,December,2022-12-01,Shopping,465171.96
+2023,January,2023-01-01,Shopping,844011.5
+2023,February,2023-02-01,Shopping,879730.8
+2023,March,2023-03-01,Shopping,1098591.22
+2023,April,2023-04-01,Shopping,1096392.91
+2023,May,2023-05-01,Shopping,1102606.75
+2023,June,2023-06-01,Shopping,838221.37
+2023,July,2023-07-01,Shopping,657433.85
+2023,August,2023-08-01,Shopping,672461.59
+2023,September,2023-09-01,Shopping,675976.3
+2023,October,2023-10-01,Shopping,872131.62
+2023,November,2023-11-01,Shopping,937028.53
+2023,December,2023-12-01,Shopping,1190824.35
+2024,January,2024-01-01,Shopping,1016220.17
+2024,February,2024-02-01,Shopping,1003320.68
+2024,March,2024-03-01,Shopping,1218105.44
+2024,April,2024-04-01,Shopping,1312459.86
+2024,May,2024-05-01,Shopping,1205238.62
+2024,June,2024-06-01,Shopping,1030785.8
+2024,July,2024-07-01,Shopping,777341.31
+2024,August,2024-08-01,Shopping,741800.84
+2024,September,2024-09-01,Shopping,791097.1
+2024,October,2024-10-01,Shopping,1008006.4
+2024,November,2024-11-01,Shopping,1027573.2
+2024,December,2024-12-01,Shopping,1390304.91
+2025,January,2025-01-01,Shopping,1020870.01
+2025,February,2025-02-01,Shopping,1053133.37
+2025,March,2025-03-01,Shopping,1319748.2
+2025,April,2025-04-01,Shopping,1225144.83
+2025,May,2025-05-01,Shopping,1347621.99
+2025,June,2025-06-01,Shopping,988724.08
+2025,July,2025-07-01,Shopping,807061.2
+2025,August,2025-08-01,Shopping,811695.44
+2025,September,2025-09-01,Shopping,761725.92
+2025,October,2025-10-01,Shopping,1040145.84
+2025,November,2025-11-01,Shopping,1021212.98
+2025,December,2025-12-01,Shopping,1420935.13
+2000,January,2000-01-01,Other services,19815.18
+2000,February,2000-02-01,Other services,21286.51
+2000,March,2000-03-01,Other services,28061.35
+2000,April,2000-04-01,Other services,29172.37
+2000,May,2000-05-01,Other services,28510.91
+2000,June,2000-06-01,Other services,23849.36
+2000,July,2000-07-01,Other services,17660.64
+2000,August,2000-08-01,Other services,18735.82
+2000,September,2000-09-01,Other services,20373.12
+2000,October,2000-10-01,Other services,28518.32
+2000,November,2000-11-01,Other services,26963.15
+2000,December,2000-12-01,Other services,38188.95
+2001,January,2001-01-01,Other services,29576.55
+2001,February,2001-02-01,Other services,30655.51
+2001,March,2001-03-01,Other services,38052.76
+2001,April,2001-04-01,Other services,40508.87
+2001,May,2001-05-01,Other services,40417.18
+2001,June,2001-06-01,Other services,33585.43
+2001,July,2001-07-01,Other services,26222.82
+2001,August,2001-08-01,Other services,26405.09
+2001,September,2001-09-01,Other services,26646.53
+2001,October,2001-10-01,Other services,36678.99
+2001,November,2001-11-01,Other services,37500.33
+2001,December,2001-12-01,Other services,51264.56
+2002,January,2002-01-01,Other services,38895.66
+2002,February,2002-02-01,Other services,41918.38
+2002,March,2002-03-01,Other services,51858.21
+2002,April,2002-04-01,Other services,51539.05
+2002,May,2002-05-01,Other services,54108.16
+2002,June,2002-06-01,Other services,42767.37
+2002,July,2002-07-01,Other services,34161.39
+2002,August,2002-08-01,Other services,33972.6
+2002,September,2002-09-01,Other services,34089.91
+2002,October,2002-10-01,Other services,47023.22
+2002,November,2002-11-01,Other services,44975.64
+2002,December,2002-12-01,Other services,62609.56
+2003,January,2003-01-01,Other services,47052.09
+2003,February,2003-02-01,Other services,49812.7
+2003,March,2003-03-01,Other services,66274.45
+2003,April,2003-04-01,Other services,68284.1
+2003,May,2003-05-01,Other services,66244.2
+2003,June,2003-06-01,Other services,53593.34
+2003,July,2003-07-01,Other services,38027.92
+2003,August,2003-08-01,Other services,40135.77
+2003,September,2003-09-01,Other services,40421.57
+2003,October,2003-10-01,Other services,54956.98
+2003,November,2003-11-01,Other services,56513.48
+2003,December,2003-12-01,Other services,76658.71
+2004,January,2004-01-01,Other services,54932.27
+2004,February,2004-02-01,Other services,60528.29
+2004,March,2004-03-01,Other services,72586.33
+2004,April,2004-04-01,Other services,76545.48
+2004,May,2004-05-01,Other services,81791.13
+2004,June,2004-06-01,Other services,60678.91
+2004,July,2004-07-01,Other services,43801.93
+2004,August,2004-08-01,Other services,47588.15
+2004,September,2004-09-01,Other services,50205.2
+2004,October,2004-10-01,Other services,69454.03
+2004,November,2004-11-01,Other services,63950.74
+2004,December,2004-12-01,Other services,92071.82
+2005,January,2005-01-01,Other services,67050.77
+2005,February,2005-02-01,Other services,68581.32
+2005,March,2005-03-01,Other services,93901.74
+2005,April,2005-04-01,Other services,84032.16
+2005,May,2005-05-01,Other services,89677.48
+2005,June,2005-06-01,Other services,73010.22
+2005,July,2005-07-01,Other services,56378.52
+2005,August,2005-08-01,Other services,55362.26
+2005,September,2005-09-01,Other services,56315.68
+2005,October,2005-10-01,Other services,74316.44
+2005,November,2005-11-01,Other services,76613.61
+2005,December,2005-12-01,Other services,102612.53
+2006,January,2006-01-01,Other services,79047.02
+2006,February,2006-02-01,Other services,77530.68
+2006,March,2006-03-01,Other services,100119.99
+2006,April,2006-04-01,Other services,99912.21
+2006,May,2006-05-01,Other services,104411.93
+2006,June,2006-06-01,Other services,81474.19
+2006,July,2006-07-01,Other services,58512.8
+2006,August,2006-08-01,Other services,64762.32
+2006,September,2006-09-01,Other services,61288.17
+2006,October,2006-10-01,Other services,83136.82
+2006,November,2006-11-01,Other services,84070.34
+2006,December,2006-12-01,Other services,121449.43
+2007,January,2007-01-01,Other services,81613.08
+2007,February,2007-02-01,Other services,96283.66
+2007,March,2007-03-01,Other services,114516.67
+2007,April,2007-04-01,Other services,112750.08
+2007,May,2007-05-01,Other services,112813.91
+2007,June,2007-06-01,Other services,91981.28
+2007,July,2007-07-01,Other services,70078.72
+2007,August,2007-08-01,Other services,70947.21
+2007,September,2007-09-01,Other services,71370.1
+2007,October,2007-10-01,Other services,94653.69
+2007,November,2007-11-01,Other services,94636.4
+2007,December,2007-12-01,Other services,129011.85
+2008,January,2008-01-01,Other services,96233.99
+2008,February,2008-02-01,Other services,100919.68
+2008,March,2008-03-01,Other services,125190.22
+2008,April,2008-04-01,Other services,113061.75
+2008,May,2008-05-01,Other services,127459.63
+2008,June,2008-06-01,Other services,101388.88
+2008,July,2008-07-01,Other services,76157.23
+2008,August,2008-08-01,Other services,75904.85
+2008,September,2008-09-01,Other services,80010.19
+2008,October,2008-10-01,Other services,106956.28
+2008,November,2008-11-01,Other services,102370.07
+2008,December,2008-12-01,Other services,144300.88
+2009,January,2009-01-01,Other services,103298.47
+2009,February,2009-02-01,Other services,102763.15
+2009,March,2009-03-01,Other services,132461.8
+2009,April,2009-04-01,Other services,139518.57
+2009,May,2009-05-01,Other services,140917.34
+2009,June,2009-06-01,Other services,112099.34
+2009,July,2009-07-01,Other services,85214.19
+2009,August,2009-08-01,Other services,85300.77
+2009,September,2009-09-01,Other services,82971.92
+2009,October,2009-10-01,Other services,115071.99
+2009,November,2009-11-01,Other services,117147.01
+2009,December,2009-12-01,Other services,159039.22
+2010,January,2010-01-01,Other services,120137.42
+2010,February,2010-02-01,Other services,119281.9
+2010,March,2010-03-01,Other services,148549.89
+2010,April,2010-04-01,Other services,152751.47
+2010,May,2010-05-01,Other services,148881.45
+2010,June,2010-06-01,Other services,116825.25
+2010,July,2010-07-01,Other services,90156.78
+2010,August,2010-08-01,Other services,89161.95
+2010,September,2010-09-01,Other services,89940.56
+2010,October,2010-10-01,Other services,122665.86
+2010,November,2010-11-01,Other services,121052.2
+2010,December,2010-12-01,Other services,166923.44
+2011,January,2011-01-01,Other services,118464.86
+2011,February,2011-02-01,Other services,127208.81
+2011,March,2011-03-01,Other services,159005.75
+2011,April,2011-04-01,Other services,156077.97
+2011,May,2011-05-01,Other services,164184.16
+2011,June,2011-06-01,Other services,133245.27
+2011,July,2011-07-01,Other services,93083.42
+2011,August,2011-08-01,Other services,96148.44
+2011,September,2011-09-01,Other services,96715.65
+2011,October,2011-10-01,Other services,129055.43
+2011,November,2011-11-01,Other services,136924.54
+2011,December,2011-12-01,Other services,180384.97
+2012,January,2012-01-01,Other services,134127.13
+2012,February,2012-02-01,Other services,127824.24
+2012,March,2012-03-01,Other services,174259.69
+2012,April,2012-04-01,Other services,165605.43
+2012,May,2012-05-01,Other services,173311.05
+2012,June,2012-06-01,Other services,140358.33
+2012,July,2012-07-01,Other services,109286.07
+2012,August,2012-08-01,Other services,101453.66
+2012,September,2012-09-01,Other services,96579.83
+2012,October,2012-10-01,Other services,143185.41
+2012,November,2012-11-01,Other services,150935.0
+2012,December,2012-12-01,Other services,201625.54
+2013,January,2013-01-01,Other services,145710.76
+2013,February,2013-02-01,Other services,143452.53
+2013,March,2013-03-01,Other services,187431.1
+2013,April,2013-04-01,Other services,178626.02
+2013,May,2013-05-01,Other services,187643.79
+2013,June,2013-06-01,Other services,151056.42
+2013,July,2013-07-01,Other services,115768.67
+2013,August,2013-08-01,Other services,122138.69
+2013,September,2013-09-01,Other services,114735.0
+2013,October,2013-10-01,Other services,149679.13
+2013,November,2013-11-01,Other services,152682.77
+2013,December,2013-12-01,Other services,196354.93
+2014,January,2014-01-01,Other services,151182.09
+2014,February,2014-02-01,Other services,153294.38
+2014,March,2014-03-01,Other services,191934.08
+2014,April,2014-04-01,Other services,196895.85
+2014,May,2014-05-01,Other services,192139.5
+2014,June,2014-06-01,Other services,163727.14
+2014,July,2014-07-01,Other services,119400.74
+2014,August,2014-08-01,Other services,119966.52
+2014,September,2014-09-01,Other services,119413.68
+2014,October,2014-10-01,Other services,162352.36
+2014,November,2014-11-01,Other services,166419.88
+2014,December,2014-12-01,Other services,214588.62
+2015,January,2015-01-01,Other services,160762.07
+2015,February,2015-02-01,Other services,163298.38
+2015,March,2015-03-01,Other services,198642.14
+2015,April,2015-04-01,Other services,202887.83
+2015,May,2015-05-01,Other services,206014.1
+2015,June,2015-06-01,Other services,172406.92
+2015,July,2015-07-01,Other services,127597.21
+2015,August,2015-08-01,Other services,127938.74
+2015,September,2015-09-01,Other services,131062.34
+2015,October,2015-10-01,Other services,170494.46
+2015,November,2015-11-01,Other services,174014.8
+2015,December,2015-12-01,Other services,232557.61
+2016,January,2016-01-01,Other services,174982.01
+2016,February,2016-02-01,Other services,171351.01
+2016,March,2016-03-01,Other services,202976.97
+2016,April,2016-04-01,Other services,219113.76
+2016,May,2016-05-01,Other services,230432.82
+2016,June,2016-06-01,Other services,182534.88
+2016,July,2016-07-01,Other services,137675.11
+2016,August,2016-08-01,Other services,139384.08
+2016,September,2016-09-01,Other services,135359.06
+2016,October,2016-10-01,Other services,181870.24
+2016,November,2016-11-01,Other services,178235.03
+2016,December,2016-12-01,Other services,243905.11
+2017,January,2017-01-01,Other services,186584.28
+2017,February,2017-02-01,Other services,190645.44
+2017,March,2017-03-01,Other services,230033.64
+2017,April,2017-04-01,Other services,228866.68
+2017,May,2017-05-01,Other services,233003.69
+2017,June,2017-06-01,Other services,190576.38
+2017,July,2017-07-01,Other services,134892.49
+2017,August,2017-08-01,Other services,131845.82
+2017,September,2017-09-01,Other services,139851.41
+2017,October,2017-10-01,Other services,183427.29
+2017,November,2017-11-01,Other services,188285.31
+2017,December,2017-12-01,Other services,258050.86
+2018,January,2018-01-01,Other services,190178.41
+2018,February,2018-02-01,Other services,202035.93
+2018,March,2018-03-01,Other services,245381.97
+2018,April,2018-04-01,Other services,246199.47
+2018,May,2018-05-01,Other services,249573.22
+2018,June,2018-06-01,Other services,190076.33
+2018,July,2018-07-01,Other services,152819.89
+2018,August,2018-08-01,Other services,148461.79
+2018,September,2018-09-01,Other services,152405.09
+2018,October,2018-10-01,Other services,193568.86
+2018,November,2018-11-01,Other services,191440.16
+2018,December,2018-12-01,Other services,278837.91
+2019,January,2019-01-01,Other services,204685.56
+2019,February,2019-02-01,Other services,197701.09
+2019,March,2019-03-01,Other services,248347.08
+2019,April,2019-04-01,Other services,264643.34
+2019,May,2019-05-01,Other services,247829.63
+2019,June,2019-06-01,Other services,216571.43
+2019,July,2019-07-01,Other services,151201.31
+2019,August,2019-08-01,Other services,158987.67
+2019,September,2019-09-01,Other services,155056.15
+2019,October,2019-10-01,Other services,213392.84
+2019,November,2019-11-01,Other services,206965.55
+2019,December,2019-12-01,Other services,283727.53
+2020,January,2020-01-01,Other services,222873.26
+2020,February,2020-02-01,Other services,216722.14
+2020,March,2020-03-01,Other services,40940.1
+2020,April,2020-04-01,Other services,39581.06
+2020,May,2020-05-01,Other services,40073.28
+2020,June,2020-06-01,Other services,31433.49
+2020,July,2020-07-01,Other services,22515.14
+2020,August,2020-08-01,Other services,24339.71
+2020,September,2020-09-01,Other services,26348.34
+2020,October,2020-10-01,Other services,33653.93
+2020,November,2020-11-01,Other services,32980.93
+2020,December,2020-12-01,Other services,44359.37
+2021,January,2021-01-01,Other services,13304.96
+2021,February,2021-02-01,Other services,13563.02
+2021,March,2021-03-01,Other services,16147.0
+2021,April,2021-04-01,Other services,17361.62
+2021,May,2021-05-01,Other services,17221.84
+2021,June,2021-06-01,Other services,13827.64
+2021,July,2021-07-01,Other services,10322.02
+2021,August,2021-08-01,Other services,10230.02
+2021,September,2021-09-01,Other services,10467.11
+2021,October,2021-10-01,Other services,13971.73
+2021,November,2021-11-01,Other services,13629.68
+2021,December,2021-12-01,Other services,18341.26
+2022,January,2022-01-01,Other services,104357.91
+2022,February,2022-02-01,Other services,109251.53
+2022,March,2022-03-01,Other services,126082.17
+2022,April,2022-04-01,Other services,125615.02
+2022,May,2022-05-01,Other services,132501.71
+2022,June,2022-06-01,Other services,106001.58
+2022,July,2022-07-01,Other services,80064.2
+2022,August,2022-08-01,Other services,80504.9
+2022,September,2022-09-01,Other services,79653.04
+2022,October,2022-10-01,Other services,112074.98
+2022,November,2022-11-01,Other services,102470.36
+2022,December,2022-12-01,Other services,142176.15
+2023,January,2023-01-01,Other services,276062.2
+2023,February,2023-02-01,Other services,264143.69
+2023,March,2023-03-01,Other services,346611.71
+2023,April,2023-04-01,Other services,367025.5
+2023,May,2023-05-01,Other services,350969.78
+2023,June,2023-06-01,Other services,283468.41
+2023,July,2023-07-01,Other services,203821.78
+2023,August,2023-08-01,Other services,208590.33
+2023,September,2023-09-01,Other services,210810.13
+2023,October,2023-10-01,Other services,282481.63
+2023,November,2023-11-01,Other services,297121.12
+2023,December,2023-12-01,Other services,393987.23
+2024,January,2024-01-01,Other services,302563.41
+2024,February,2024-02-01,Other services,316322.08
+2024,March,2024-03-01,Other services,399635.24
+2024,April,2024-04-01,Other services,408510.77
+2024,May,2024-05-01,Other services,415038.68
+2024,June,2024-06-01,Other services,308316.0
+2024,July,2024-07-01,Other services,233430.07
+2024,August,2024-08-01,Other services,230945.44
+2024,September,2024-09-01,Other services,239059.79
+2024,October,2024-10-01,Other services,326505.02
+2024,November,2024-11-01,Other services,332567.27
+2024,December,2024-12-01,Other services,436403.37
+2025,January,2025-01-01,Other services,321881.49
+2025,February,2025-02-01,Other services,327484.19
+2025,March,2025-03-01,Other services,398509.06
+2025,April,2025-04-01,Other services,435701.33
+2025,May,2025-05-01,Other services,391415.48
+2025,June,2025-06-01,Other services,331828.93
+2025,July,2025-07-01,Other services,263320.81
+2025,August,2025-08-01,Other services,249050.79
+2025,September,2025-09-01,Other services,248326.13
+2025,October,2025-10-01,Other services,330418.4
+2025,November,2025-11-01,Other services,333187.06
+2025,December,2025-12-01,Other services,472281.72

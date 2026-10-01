@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Recovery &amp; comparison{% endblock %}
+{% block heading %}Recovery Status and Category Comparison{% endblock %}
+
+{% block content %}
+<div class="kpi-grid three">
+  <div class="card kpi">
+    <div class="kpi-head"><h3>Fully recovered</h3><span class="dot healthy"></span></div>
+    <p class="kpi-sub">100% or more of 2019</p>
+    <p class="kpi-value">{{ counts['Fully Recovered'] }} <span class="kpi-unit">categories</span></p>
+  </div>
+  <div class="card kpi">
+    <div class="kpi-head"><h3>Partially recovered</h3><span class="dot warning"></span></div>
+    <p class="kpi-sub">80&ndash;99% of 2019</p>
+    <p class="kpi-value">{{ counts['Partially Recovered'] }} <span class="kpi-unit">categories</span></p>
+  </div>
+  <div class="card kpi">
+    <div class="kpi-head"><h3>Lagging</h3><span class="dot critical"></span></div>
+    <p class="kpi-sub">below 80% of 2019</p>
+    <p class="kpi-value">{{ counts['Lagging'] }} <span class="kpi-unit">categories</span></p>
+  </div>
+</div>
+
+<div class="two-col">
+  <section class="card panel">
+    <div class="panel-head"><h2>Recovery rate, {{ year }} vs 2019</h2></div>
+    <div id="chart-bars" class="chart tall"></div>
+    <p class="sub-note">Dashed lines mark the 80% (partially recovered) and 100% (fully recovered) thresholds.</p>
+  </section>
+
+  <section class="card panel">
+    <div class="panel-head"><h2>Recovery speed, {{ f.from }}&ndash;{{ f.to }}</h2></div>
+    <div id="chart-index" class="chart tall"></div>
+    <p class="sub-note">Each line is indexed so that 2019 = 100.{% if f.category != 'All' %} {{ f.category }} is highlighted.{% endif %}</p>
+  </section>
+</div>
+
+<div class="section-title"><h2>Recovery detail</h2></div>
+<div class="card table-card">
+  <table class="data-table">
+    <thead>
+      <tr><th>No</th><th>Category</th><th class="num">2019 ({{ unit }})</th><th class="num">{{ year }} ({{ unit }})</th><th class="num">Recovery rate</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+      <tr class="{{ 'is-selected' if f.category == r.Category }}">
+        <td>{{ loop.index }}</td>
+        <td>{{ r.Category }}</td>
+        <td class="num">{{ r.Baseline|num }}</td>
+        <td class="num">{{ r.Current|num }}</td>
+        <td class="num">{{ r.Recovery_Rate_pct|pct }}</td>
+        <td><span class="status {{ status_class[r.Status] }}">{{ r.Status }}</span></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const C = {{ charts|tojson }};
+  BT.recoveryBars('chart-bars', C.bars.x, C.bars.y, C.bars.status);
+  BT.indexLines('chart-index', C.index.x, C.index.lines);
+</script>
+{% endblock %}

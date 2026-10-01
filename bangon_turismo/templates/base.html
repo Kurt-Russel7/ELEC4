@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Bangon Turismo{% endblock %} | Bangon Turismo Monitor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M3 20 L9 9 L13 15 L16 11 L21 20 Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <circle cx="17" cy="5.5" r="2" fill="currentColor"/>
+    </svg>
+    <span>Bangon Turismo Monitor</span>
+  </div>
+  {% set qs = '?category=' ~ f.category|urlencode ~ '&model=' ~ f.model|urlencode ~ '&from=' ~ f.from ~ '&to=' ~ f.to %}
+  <nav class="tabs">
+    <a href="{{ url_for('overview') }}{{ qs }}" class="{{ 'active' if page == 'overview' }}">Overview</a>
+    <a href="{{ url_for('recovery') }}{{ qs }}" class="{{ 'active' if page == 'recovery' }}">Recovery &amp; comparison</a>
+    <a href="{{ url_for('forecast') }}{{ qs }}" class="{{ 'active' if page == 'forecast' }}">Forecast</a>
+    <a href="{{ url_for('evaluation') }}{{ qs }}" class="{{ 'active' if page == 'evaluation' }}">Model evaluation</a>
+  </nav>
+  <div class="topbar-right">Data through Dec 2025 <span class="live-dot"></span></div>
+</header>
+
+<div class="page-head">
+  <div>
+    <h1>{% block heading %}{% endblock %}</h1>
+    <p class="period">Reporting period: {{ f.from }}&ndash;{{ f.to }}{% if f.category != 'All' %} &middot; {{ f.category }}{% endif %}</p>
+  </div>
+  <div class="legend-status" aria-label="Recovery status legend">
+    <div class="ls-item"><span class="ls-label">Lagging</span><span class="dot critical"></span></div>
+    <div class="ls-item up"><span class="ls-label">Partially recovered</span><span class="dot warning"></span></div>
+    <div class="ls-item"><span class="ls-label">Fully recovered</span><span class="dot healthy"></span></div>
+  </div>
+  <p class="baseline-note">Baseline year: 2019 (pre-pandemic)</p>
+</div>
+
+<div class="layout">
+  <aside class="card filters">
+    <h2>Filter</h2>
+    <form method="get" id="filter-form">
+      <label for="category">Category</label>
+      <select name="category" id="category">
+        <option value="All" {{ 'selected' if f.category == 'All' }}>(All)</option>
+        {% for c in categories %}
+        <option value="{{ c }}" {{ 'selected' if f.category == c }}>{{ c }}</option>
+        {% endfor %}
+      </select>
+
+      <label for="model">Forecast model</label>
+      <select name="model" id="model">
+        <option value="Best" {{ 'selected' if f.model == 'Best' }}>Best per category</option>
+        {% for m in models %}
+        <option value="{{ m }}" {{ 'selected' if f.model == m }}>{{ m }}</option>
+        {% endfor %}
+      </select>
+
+      <label for="from">From year</label>
+      <select name="from" id="from">
+        {% for y in years[:-1] %}
+        <option value="{{ y }}" {{ 'selected' if f.from == y }}>{{ y }}</option>
+        {% endfor %}
+      </select>
+
+      <label for="to">To year</label>
+      <select name="to" id="to">
+        {% for y in years[1:] %}
+        <option value="{{ y }}" {{ 'selected' if f.to == y }}>{{ y }}</option>
+        {% endfor %}
+      </select>
+
+      <noscript><button type="submit" class="btn">Apply filters</button></noscript>
+    </form>
+    <a class="btn" href="{{ request.path }}">Reset filters</a>
+    <p class="filter-hint">Values in {{ unit }}</p>
+  </aside>
+
+  <main class="content">
+    {% block content %}{% endblock %}
+  </main>
+</div>
+
+<footer class="footer">{{ source_note }}. Train: Jan 2000&ndash;Dec 2022 &middot; Test: Jan 2023&ndash;Dec 2025.</footer>
+
+<script>
+  document.querySelectorAll('#filter-form select').forEach(function (s) {
+    s.addEventListener('change', function () { document.getElementById('filter-form').submit(); });
+  });
+</script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

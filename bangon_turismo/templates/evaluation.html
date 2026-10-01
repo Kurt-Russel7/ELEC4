@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Model evaluation{% endblock %}
+{% block heading %}Model Evaluation{% endblock %}
+
+{% block content %}
+<p class="lead">Each model was trained on {{ split.train }} and tested against the actual values for {{ split.test }}. Lower is better for every metric.</p>
+
+<div class="kpi-grid three">
+  {% for a in avg %}
+  <div class="card kpi">
+    <div class="kpi-head"><h3>{{ a.model }}</h3></div>
+    <p class="kpi-sub">average of 7 categories</p>
+    <dl class="metric-list">
+      <div><dt>MAE</dt><dd>{{ a.MAE|num }}</dd></div>
+      <div><dt>RMSE</dt><dd>{{ a.RMSE|num }}</dd></div>
+      <div><dt>MAPE</dt><dd>{{ a.MAPE|pct(2) }}</dd></div>
+    </dl>
+    <p class="kpi-note">Best for <strong>{{ a.wins }}</strong> of 7 categories</p>
+  </div>
+  {% endfor %}
+</div>
+
+<section class="card panel">
+  <div class="panel-head"><h2>Actual vs predicted, test period</h2><span class="hint">{{ charts.test.name }}</span></div>
+  <div id="chart-test" class="chart tall"></div>
+</section>
+
+<div class="section-title">
+  <h2>Accuracy by category</h2>
+  <span class="hint"><span class="mark">&#9654;</span> Best model for the category (lowest RMSE)</span>
+</div>
+<div class="card table-card">
+  <table class="data-table">
+    <thead><tr><th>Category</th><th>Model</th><th class="num">MAE</th><th class="num">RMSE</th><th class="num">MAPE</th></tr></thead>
+    <tbody>
+      {% for r in rows %}
+      <tr class="{{ 'is-best' if r.best }}">
+        <td>{{ r.Category }}</td>
+        <td>{% if r.best %}&#9654; {% endif %}{{ r.Model }}</td>
+        <td class="num">{{ r.MAE|num(2) }}</td>
+        <td class="num">{{ r.RMSE|num(2) }}</td>
+        <td class="num">{{ r.MAPE|pct(2) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const C = {{ charts|tojson }};
+  BT.testChart('chart-test', C.test);
+</script>
+{% endblock %}
