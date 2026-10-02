@@ -24,15 +24,26 @@
 <section class="card panel">
   <div class="panel-head">
     <h2>Recovery rate, {{ year }} vs 2019</h2>
-    <div class="year-pick" role="group" aria-label="Year to compare with 2019">
-      <span class="year-pick-label">Compare with 2019:</span>
-      <div class="seg">
-        {% for y in post_years %}
-        <a href="{{ url_for('recovery', category=f.category, model=f.model, to=f.to, ry=y, **{'from': f.from}) }}"
-           class="{{ 'active' if y == year }}" {{ 'aria-current=true' if y == year }}>{{ y }}</a>
-        {% endfor %}
+    <form class="year-pick" method="get" action="{{ url_for('recovery') }}">
+      <input type="hidden" name="category" value="{{ f.category }}">
+      <input type="hidden" name="model" value="{{ f.model }}">
+      <input type="hidden" name="from" value="{{ f.from }}">
+      <input type="hidden" name="to" value="{{ f.to }}">
+      <span class="year-pick-label" id="lbl-ry">Compare with 2019:</span>
+      <div class="dd" data-dd data-autosubmit>
+        <input type="hidden" name="ry" value="{{ year }}">
+        <button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="lbl-ry">
+          <span class="dd-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4 10h16M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+          <span class="dd-value">{{ year }}</span>
+          <svg class="dd-chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="dd-menu" role="listbox" tabindex="-1">
+          {% for y in post_years %}
+          <li role="option" tabindex="-1" data-value="{{ y }}" class="{{ 'selected' if y == year }}" aria-selected="{{ 'true' if y == year else 'false' }}">{{ y }}</li>
+          {% endfor %}
+        </ul>
       </div>
-    </div>
+    </form>
   </div>
   <div id="chart-bars" class="chart tall"></div>
   <p class="sub-note">The year also updates the counts above and the table below. Dashed lines mark the 80% (partially recovered) and 100% (fully recovered) thresholds.</p>

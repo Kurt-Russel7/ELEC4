@@ -41,7 +41,7 @@
 {% macro dd(name, label, icon, value, options) %}
 <div class="field">
   <span class="field-label" id="lbl-{{ name }}">{{ label }}</span>
-  <div class="dd" data-dd>
+  <div class="dd" data-dd data-autosubmit>
     <input type="hidden" name="{{ name }}" value="{{ value }}">
     <button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="lbl-{{ name }}">
       <span class="dd-icon"><svg viewBox="0 0 24 24" aria-hidden="true">{{ icon }}</svg></span>
@@ -72,7 +72,6 @@
 {% for y in years[:-1] %}{% set _ = from_opts.append((y, y)) %}{% endfor %}
 {% set to_opts = [] %}
 {% for y in years[1:] %}{% set _ = to_opts.append((y, y)) %}{% endfor %}
-{% set ico_slider %}<path d="M4 7h9M17 7h3M4 17h3M11 17h9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="15" cy="7" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/>{% endset %}
 {% set ico_cat %}<path d="M12 4l3 5H9l3-5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><rect x="4" y="14" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="17" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/>{% endset %}
 {% set ico_trend %}<path d="M3 17l6-6 4 4 8-8M15 7h6v6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>{% endset %}
 {% set ico_cal %}<rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4 10h16M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>{% endset %}
@@ -81,18 +80,6 @@
   <section class="card filters">
     <form method="get" id="filter-form">
       {% if ry %}<input type="hidden" name="ry" value="{{ ry }}">{% endif %}
-      <div class="filters-head">
-        <div class="filters-title">
-          <span class="title-icon"><svg viewBox="0 0 24 24" aria-hidden="true">{{ ico_slider }}</svg></span>
-          <h2>Filters</h2>
-          {% if active %}<span class="badge">{{ active|length }} Active</span>{% endif %}
-        </div>
-        <div class="filters-actions">
-          <a class="clear" href="{{ request.path }}">Clear All</a>
-          <button type="submit" class="btn">Apply Filters</button>
-        </div>
-      </div>
-
       <div class="filter-fields">
         {{ dd('category', 'Category', ico_cat, f.category, cat_opts) }}
         {{ dd('model', 'Forecast model', ico_trend, f.model, model_opts) }}
@@ -110,7 +97,10 @@
           </span>
           {% endfor %}
         </div>
-        <span class="filter-hint">Values in {{ unit }}</span>
+        <div class="foot-row">
+          {% if active %}<a class="clear" href="{{ request.path }}">Clear All</a>{% else %}<span></span>{% endif %}
+          <span class="filter-hint">Values in {{ unit }}</span>
+        </div>
       </div>
     </form>
   </section>
@@ -145,6 +135,7 @@
           items.forEach(function (o) { o.classList.remove('selected'); o.setAttribute('aria-selected', 'false'); });
           li.classList.add('selected'); li.setAttribute('aria-selected', 'true');
           close(d); btn.focus();
+          if (d.hasAttribute('data-autosubmit')) d.closest('form').submit();
         });
         li.addEventListener('keydown', function (e) {
           if (e.key === 'ArrowDown') { e.preventDefault(); (items[i + 1] || li).focus(); }

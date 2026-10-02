@@ -9,6 +9,7 @@ DATA_SOURCE_NOTE = "Source: Kaggle inbound tourism expenditure dataset (modified
 UNIT_LABEL = "₱ million"
 
 app = Flask(__name__)
+app.config["TEMPLATES_AUTO_RELOAD"] = True   # pick up template edits without restarting the server
 
 print("Training models and preparing results...")
 R = A.build_all()
